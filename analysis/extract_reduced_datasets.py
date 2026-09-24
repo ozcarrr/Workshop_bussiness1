@@ -1,7 +1,6 @@
-#!/usr/bin/env python3
 """
 Data Architecture & Extraction Pipeline: Phase 1 Reduced Datasets
-Script: audit/extract_reduced_datasets.py
+Script: analysis/extract_reduced_datasets.py
 
 Extracts reduced test datasets from raw repositories in accordance with:
 - Task 1.4 (.instructions.md)
@@ -19,9 +18,11 @@ import sys
 import time
 import pandas as pd
 
+DATA_DIR = "data" if os.path.exists("data") else os.path.join("..", "data")
+
 def extract_reduced_urgencias():
-    src_path = os.path.join("data", "AtencionesUrgencia", "AtencionesUrgencia2024.csv")
-    dest_path = os.path.join("data", "reduced_urgencias_2024_sample.csv")
+    src_path = os.path.join(DATA_DIR, "AtencionesUrgencia", "AtencionesUrgencia2024.csv")
+    dest_path = os.path.join(DATA_DIR, "reduced_urgencias_2024_sample.csv")
     
     print(f"[1/3] Processing SADU 2024: {src_path} -> {dest_path}")
     t0 = time.time()
@@ -54,8 +55,8 @@ def extract_reduced_urgencias():
 
 
 def extract_reduced_rem20():
-    src_path = os.path.join("data", "indicadores_rem20_20260825.csv")
-    dest_path = os.path.join("data", "reduced_rem20_critical_psych.csv")
+    src_path = os.path.join(DATA_DIR, "indicadores_rem20_20260825.csv")
+    dest_path = os.path.join(DATA_DIR, "reduced_rem20_critical_psych.csv")
     
     print(f"[2/3] Processing REM20: {src_path} -> {dest_path}")
     t0 = time.time()
@@ -82,8 +83,8 @@ def extract_reduced_rem20():
 
 
 def extract_reduced_establecimientos():
-    src_path = os.path.join("data", "establecimientos_20260910.csv")
-    dest_path = os.path.join("data", "reduced_establecimientos.csv")
+    src_path = os.path.join(DATA_DIR, "establecimientos_20260910.csv")
+    dest_path = os.path.join(DATA_DIR, "reduced_establecimientos.csv")
     
     print(f"[3/3] Processing Establecimientos Master: {src_path} -> {dest_path}")
     t0 = time.time()
@@ -91,7 +92,7 @@ def extract_reduced_establecimientos():
     df_estab = pd.read_csv(src_path, sep=';', encoding='utf-8', low_memory=False)
     
     # Load REM20 hospital codes to ensure all bed-reporting hospitals are included
-    rem_path = os.path.join("data", "indicadores_rem20_20260825.csv")
+    rem_path = os.path.join(DATA_DIR, "indicadores_rem20_20260825.csv")
     rem_codes = set(pd.read_csv(rem_path, sep=';', usecols=['CODIGO_ESTABLECIMIENTO'], low_memory=False)['CODIGO_ESTABLECIMIENTO'].unique())
     
     # Clean whitespace in keys

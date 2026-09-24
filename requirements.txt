@@ -1,0 +1,12 @@
+# Core Analytical & BI Dependencies for Workshop 1 (W1)
+# Business Intelligence (IIB423T-1) — Universidad del Desarrollo
+
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+reportlab>=4.0.0
+nbclient>=0.8.0
+nbformat>=5.9.0
+ipykernel>=6.25.0

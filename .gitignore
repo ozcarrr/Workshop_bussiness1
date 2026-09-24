@@ -1,4 +1,25 @@
-# Data directories and data files
+# Python and Virtual Environments
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# IDE and System Metadata
+.codewhale/
+.DS_Store
+
+# Temporary, scratch, and course working files (not part of required submission)
+.instructions.md
+W1_IIB423T-1_Brief_and_Rubric.pdf
+scratch/
+audit/
+protocols/
+
+# Root notebook duplicate prevention (notebook must reside strictly in analysis/)
+/workshop1.ipynb
+
+# Data Directories & Raw Assets (Reduced datasets documented in README)
 /data/
 data/
 /Diccionario/
@@ -9,14 +30,3 @@ Diccionario/
 *.zip
 *.rar
 *.tar.gz
-
-# Protocols and virtual environments
-/protocols
-.venv/
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
-.instructions.md
-.codewhale
-
-
