@@ -1,0 +1,22 @@
+# Data directories and data files
+/data/
+data/
+/Diccionario/
+Diccionario/
+*.csv
+*.xlsx
+*.parquet
+*.zip
+*.rar
+*.tar.gz
+
+# Protocols and virtual environments
+/protocols
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.instructions.md
+.codewhale
+
+
