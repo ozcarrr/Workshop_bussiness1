@@ -19,12 +19,10 @@ protocols/
 # Root notebook duplicate prevention (notebook must reside strictly in analysis/)
 /workshop1.ipynb
 
-# Data Directories & Raw Assets (Reduced datasets documented in README)
-/data/
-data/
+# Original DEIS downloads and W1 reduced files (not part of the C1 package)
+data/raw/
+data/reduced_*.csv
 /Diccionario/
-Diccionario/
-*.csv
 *.xlsx
 *.parquet
 *.zip

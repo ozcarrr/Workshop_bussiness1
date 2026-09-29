@@ -1,0 +1,30 @@
+ss;health_service;emergency;community;hospital;n_flags
+1;Arica y Parinacota;True;False;True;2
+2;Tarapacá;False;True;False;1
+3;Antofagasta;False;False;True;1
+4;Atacama;False;True;False;1
+5;Coquimbo;False;False;True;1
+6;Valparaíso San Antonio;False;False;True;1
+7;Viña del Mar Quillota;False;False;False;0
+8;Aconcagua;False;True;True;2
+9;Metropolitano Norte;True;True;False;2
+10;Metropolitano Occidente;False;True;False;1
+11;Metropolitano Central;True;False;False;1
+12;Metropolitano Oriente;False;False;True;1
+13;Metropolitano Sur;False;False;True;1
+14;Metropolitano Sur Oriente;False;False;True;1
+15;Del Libertador B.O Higgins;False;False;False;0
+16;Del Maule;False;False;False;0
+17;Ñuble;False;False;True;1
+18;Concepción;False;True;False;1
+19;Talcahuano;True;True;False;2
+20;Biobío;True;True;True;3
+21;Araucanía Sur;True;True;True;3
+22;Los Ríos;True;True;True;3
+23;Osorno;True;True;True;3
+24;Del Reloncaví;True;True;True;3
+25;Aisén;True;False;False;1
+26;Magallanes;True;False;False;1
+28;Arauco;True;True;False;2
+29;Araucanía Norte;True;False;False;1
+33;Chiloé;True;True;False;2

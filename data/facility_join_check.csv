@@ -1,0 +1,641 @@
+IdEstablecimiento;NEstablecimiento;GLOSATIPOESTABLECIMIENTO;ss;by_legacy;by_modern;code_system;EstablecimientoCodigo;SeremiSaludCodigo_ServicioDeSaludCodigo;TipoUrgencia;NivelComplejidadEstabGlosa;ComunaGlosa;ss_registry
+01-100;Hospital Regional Dr. Juan Noé Crevani (Arica);Hospital;1;True;False;legacy NN-NNN;101100;01;Urgencia Hospitalaria (UEH);Alta Complejidad;Arica;1
+02-803;SAR Pozo Almonte;SAR;2;True;False;legacy NN-NNN;102803;02;Urgencia Ambulatoria (SAR);Baja Complejidad;Pozo Almonte;2
+02-807;SAPU El Boro;SAPU;2;True;False;legacy NN-NNN;102807;02;Urgencia Ambulatoria (SAPU);Baja Complejidad;Alto Hospicio;2
+02-918;SUR Colchane;SUR;2;True;False;legacy NN-NNN;200752;02;Urgencia Ambulatoria (SUR);Baja Complejidad;Colchane;2
+02-921;SUR Pica;SUR;2;True;False;legacy NN-NNN;200755;02;Urgencia Ambulatoria (SUR);Baja Complejidad;Pica;2
+02-922;SUR Camiña;SUR;2;True;False;legacy NN-NNN;200756;02;Urgencia Ambulatoria (SUR);Baja Complejidad;Camiña;2
+02-928;SAR La Tortuga;SAR;2;True;False;legacy NN-NNN;201036;02;Urgencia Ambulatoria (SAR);Baja Complejidad;Alto Hospicio;2
+03-100;Hospital Dr. Leonardo Guzmán (Antofagasta);Hospital;3;True;False;legacy NN-NNN;103100;03;Urgencia Hospitalaria (UEH);Alta Complejidad;Antofagasta;3
+03-101;Hospital Dr. Carlos Cisternas (Calama);Hospital;3;True;False;legacy NN-NNN;103101;03;Urgencia Hospitalaria (UEH);Alta Complejidad;Calama;3
+03-102;Hospital Dr. Marcos Macuada (Tocopilla);Hospital;3;True;False;legacy NN-NNN;103102;03;Urgencia Hospitalaria (UEH);Baja Complejidad;Tocopilla;3
+03-103;Hospital 21 de Mayo (Taltal);Hospital;3;True;False;legacy NN-NNN;103103;03;Urgencia Hospitalaria (UEH);Baja Complejidad;Taltal;3
+03-104;Hospital de Mejillones;Hospital;3;True;False;legacy NN-NNN;103104;03;Urgencia Hospitalaria (UEH);Baja Complejidad;Mejillones;3
+03-800;SAPU Norte de Antofagasta;SAPU;3;True;False;legacy NN-NNN;103800;03;Urgencia Ambulatoria (SAPU);Baja Complejidad;Antofagasta;3
+03-801;SAPU Antonio Rendic;SAPU;3;True;False;legacy NN-NNN;103801;03;Urgencia Ambulatoria (SAPU);Baja Complejidad;Antofagasta;3
+03-802;SAPU Corvallis;SAPU;3;True;False;legacy NN-NNN;103802;03;Urgencia Ambulatoria (SAPU);Baja Complejidad;Antofagasta;3
+03-804;SAPU Juan Pablo II de Antofagasta;SAPU;3;True;False;legacy NN-NNN;103804;03;Urgencia Ambulatoria (SAPU);Baja Complejidad;Antofagasta;3
+03-806;SAPU Norponiente;SAPU;3;True;False;legacy NN-NNN;103806;03;Urgencia Ambulatoria (SAPU);Baja Complejidad;Calama;3
+03-807;SAPU SUR;SAPU;3;True;False;legacy NN-NNN;103807;03;Urgencia Ambulatoria (SAPU);Baja Complejidad;Calama;3
+03-900;SAPU Central Oriente de Antofagasta;SAPU;3;True;False;legacy NN-NNN;200097;03;Urgencia Ambulatoria (SAPU);Baja Complejidad;Antofagasta;3
+03-901;SAPU Centro Sur de Antofagasta;SAPU;3;True;False;legacy NN-NNN;200098;03;Urgencia Ambulatoria (SAPU);Baja Complejidad;Antofagasta;3
+03-910;SAR Alemania;SAR;3;True;False;legacy NN-NNN;200348;03;Urgencia Ambulatoria (SAR);Baja Complejidad;Calama;3
+03-917;Centro Oncológico del Norte (CON);SAPU;3;True;False;legacy NN-NNN;200508;03;Otro;Alta Complejidad;Antofagasta;3
+04-929;SUR Alto del Carmen;SUR;4;True;False;legacy NN-NNN;200949;04;Urgencia Ambulatoria (SUR);Baja Complejidad;Alto del Carmen;4
+05-100;Hospital San Juan de Dios (La Serena);Hospital;5;True;False;legacy NN-NNN;105100;05;Urgencia Hospitalaria (UEH);Alta Complejidad;La Serena;5
+05-104;Hospital de Salamanca;Hospital;5;True;False;legacy NN-NNN;105104;05;Urgencia Hospitalaria (UEH);Baja Complejidad;Salamanca;5
+03-926;SAR Coviefi;SAR;3;True;False;legacy NN-NNN;200622;03;Urgencia Ambulatoria (SAR);Baja Complejidad;Antofagasta;3
+03-931;SUR San Pedro Atacama;SUR;3;True;False;legacy NN-NNN;200910;03;Urgencia Ambulatoria (SUR);Baja Complejidad;San Pedro de Atacama;3
+03-932;SUR Socaire;SUR;3;True;False;legacy NN-NNN;200911;03;Urgencia Ambulatoria (SUR);Baja Complejidad;San Pedro de Atacama;3
+03-943;SUR Baquedano;SUR;3;True;False;legacy NN-NNN;200912;03;Urgencia Ambulatoria (SUR);Baja Complejidad;Sierra Gorda;3
+03-944;SUR María Elena;SUR;3;True;False;legacy NN-NNN;200913;03;Urgencia Ambulatoria (SUR);Baja Complejidad;Maria Elena;3
+03-945;SUR Sierra Gorda;SUR;3;True;False;legacy NN-NNN;200914;03;Urgencia Ambulatoria (SUR);Baja Complejidad;Sierra Gorda;3
+05-105;Hospital San Juan de Dios (Combarbalá);Hospital;5;True;False;legacy NN-NNN;105105;05;Urgencia Hospitalaria (UEH);Baja Complejidad;Combarbalá;5
+05-108;Hospital San Pedro (Los Vilos);Hospital;5;True;False;legacy NN-NNN;105108;05;Urgencia Hospitalaria (UEH);Baja Complejidad;Los Vilos;5
+05-801;SAPU Las Compañías;SAPU;5;True;False;legacy NN-NNN;105801;05;Urgencia Ambulatoria (SAPU);Baja Complejidad;La Serena;5
+05-802;SAPU Pedro Aguirre Cerda;SAPU;5;True;False;legacy NN-NNN;105802;05;Urgencia Ambulatoria (SAPU);Baja Complejidad;La Serena;5
+05-936;SUR La Higuera;SUR;5;True;False;legacy NN-NNN;200740;05;Urgencia Ambulatoria (SUR);Baja Complejidad;La Higuera;5
+05-803;SAPU San Juan;SAPU;5;True;False;legacy NN-NNN;105803;05;Urgencia Ambulatoria (SAPU);Baja Complejidad;Coquimbo;5
+01-802;SAPU Marco Antonio Carvajal Moreno;SAPU;1;True;False;legacy NN-NNN;200094;01;Urgencia Ambulatoria (SAPU);Baja Complejidad;Arica;1
+05-809;SAPU Canela;SAPU;5;True;False;legacy NN-NNN;105809;05;Urgencia Ambulatoria (SAPU);Baja Complejidad;Canela;5
+05-804;SAPU Santa Cecilia;SAPU;5;True;False;legacy NN-NNN;105804;05;Urgencia Ambulatoria (SAPU);Baja Complejidad;Coquimbo;5
+05-805;SAR Tierras Blancas;SAR;5;True;False;legacy NN-NNN;105805;05;Urgencia Ambulatoria (SAR);Baja Complejidad;Coquimbo;5
+01-901;SAR E.U. Iris Véliz Hume;SAR;1;True;False;legacy NN-NNN;200095;01;Urgencia Ambulatoria (SAR);Baja Complejidad;Arica;1
+05-817;SAPU Jorge Jordán Domic;SAPU;5;True;False;legacy NN-NNN;105817;05;Urgencia Ambulatoria (SAPU);Baja Complejidad;Ovalle;5
+04-100;Hospital San José del Carmen (Copiapó);Hospital;4;True;False;legacy NN-NNN;104100;04;Urgencia Hospitalaria (UEH);Alta Complejidad;Copiapó;4
+04-101;Hospital Dr. Jerónimo Méndez Arancibia (Chañaral);Hospital;4;True;False;legacy NN-NNN;104101;04;Urgencia Hospitalaria (UEH);Baja Complejidad;Chañaral;4
+04-102;Hospital Dr. Florencio Vargas (Diego de Almagro);Hospital;4;True;False;legacy NN-NNN;104102;04;Urgencia Hospitalaria (UEH);Baja Complejidad;Diego de Almagro;4
+04-103;Hospital Provincial del Huasco Monseñor Fernando Ariztía Ruiz (Vallenar);Hospital;4;True;False;legacy NN-NNN;104103;04;Urgencia Hospitalaria (UEH);Mediana Complejidad;Vallenar;4
+04-104;Hospital Dr. Manuel Magalhaes Medling (Huasco);Hospital;4;True;False;legacy NN-NNN;104104;04;Urgencia Hospitalaria (UEH);Baja Complejidad;Huasco;4
+04-900;SAPU Baquedano;SAPU;4;True;False;legacy NN-NNN;200099;04;Urgencia Ambulatoria (SAPU);Baja Complejidad;Vallenar;4
+04-901;SAPU Dr. Bernardo Mellibovsky;SAPU;4;True;False;legacy NN-NNN;200100;04;Urgencia Ambulatoria (SAPU);Baja Complejidad;Copiapó;4
+04-902;SAPU Joan Crawford Astudillo;SAPU;4;True;False;legacy NN-NNN;200101;04;Urgencia Ambulatoria (SAPU);Baja Complejidad;Vallenar;4
+04-903;SAR Paipote;SAR;4;True;False;legacy NN-NNN;200102;04;Urgencia Ambulatoria (SAR);Baja Complejidad;Copiapó;4
+04-904;SAR Rosario Corvalán-Caldera;SAR;4;True;False;legacy NN-NNN;200103;04;Urgencia Ambulatoria (SAR);Baja Complejidad;Caldera;4
+04-909;SAPU El Palomar;SAPU;4;True;False;legacy NN-NNN;200104;04;Urgencia Ambulatoria (SAPU);Baja Complejidad;Copiapó;4
+04-930;SUR Diego de Almagro;SUR;4;True;False;legacy NN-NNN;200950;04;Urgencia Ambulatoria (SUR);Baja Complejidad;Diego de Almagro;4
+04-931;SUR Freirina;SUR;4;True;False;legacy NN-NNN;200951;04;Urgencia Ambulatoria (SUR);Baja Complejidad;Freirina;4
+04-932;SUR Tierra Amarilla;SUR;4;True;False;legacy NN-NNN;200952;04;Urgencia Ambulatoria (SUR);Baja Complejidad;Tierra Amarilla;4
+05-101;Hospital San Pablo (Coquimbo);Hospital;5;True;False;legacy NN-NNN;105101;05;Urgencia Hospitalaria (UEH);Alta Complejidad;Coquimbo;5
+05-102;Hospital Dr. Antonio Tirado Lanas (Ovalle);Hospital;5;True;False;legacy NN-NNN;105102;05;Urgencia Hospitalaria (UEH);Alta Complejidad;Ovalle;5
+05-103;Hospital Dr. Humberto Elorza Cortéz (Illapel);Hospital;5;True;False;legacy NN-NNN;105103;05;Urgencia Hospitalaria (UEH);Mediana Complejidad;Illapel;5
+05-106;Hospital Dr. José Arraño (Andacollo);Hospital;5;True;False;legacy NN-NNN;105106;05;Urgencia Hospitalaria (UEH);Baja Complejidad;Andacollo;5
+05-107;Hospital San Juan de Dios (Vicuña);Hospital;5;True;False;legacy NN-NNN;105107;05;Urgencia Hospitalaria (UEH);Baja Complejidad;Vicuña;5
+05-819;SAR Raúl Silva Henríquez;SAR;5;True;False;legacy NN-NNN;105819;05;Urgencia Ambulatoria (SAR);Baja Complejidad;La Serena;5
+02-100;Hospital Dr. Ernesto Torres Galdames;Hospital;2;True;False;legacy NN-NNN;102100;02;Urgencia Hospitalaria (UEH);Alta Complejidad;Iquique;2
+05-822;SAR Marcos Macuada;SAR;5;True;False;legacy NN-NNN;105822;05;Urgencia Ambulatoria (SAR);Baja Complejidad;Ovalle;5
+02-800;SAPU Cirujano Aguirre;SAPU;2;True;False;legacy NN-NNN;102800;02;Urgencia Ambulatoria (SAPU);Baja Complejidad;Iquique;2
+02-920;SUR Tarapacá;SUR;2;True;False;legacy NN-NNN;200754;02;Urgencia Ambulatoria (SUR);Baja Complejidad;Huara;2
+02-917;SUR Chanavayita;SUR;2;True;False;legacy NN-NNN;200751;02;Urgencia Ambulatoria (SUR);Baja Complejidad;Iquique;2
+05-823;SAPU Dr. Sergio Aguilar;SAPU;5;True;False;legacy NN-NNN;105823;05;Urgencia Ambulatoria (SAPU);Baja Complejidad;Coquimbo;5
+05-825;SAPU Cardenal Caro;SAPU;5;True;False;legacy NN-NNN;105825;05;Urgencia Ambulatoria (SAPU);Baja Complejidad;La Serena;5
+02-801;SAPU Cirujano Videla;SAPU;2;True;False;legacy NN-NNN;102801;02;Urgencia Ambulatoria (SAPU);Baja Complejidad;Iquique;2
+02-802;SAPU Cirujano Guzmán;SAPU;2;True;False;legacy NN-NNN;102802;02;Urgencia Ambulatoria (SAPU);Baja Complejidad;Iquique;2
+07-102;Hospital de Quilpué;Hospital;7;True;False;legacy NN-NNN;107102;07;Urgencia Hospitalaria (UEH);Alta Complejidad;Quilpué;7
+05-826;SAR Emilio Schaffhauser;SAR;5;True;False;legacy NN-NNN;105826;05;Urgencia Ambulatoria (SAR);Baja Complejidad;La Serena;5
+05-927;SAR Monte Patria;SAR;5;True;False;legacy NN-NNN;200720;05;Urgencia Ambulatoria (SAR);Baja Complejidad;Monte Patria;5
+05-900;SAPU Juan Pablo II;SAPU;5;True;False;legacy NN-NNN;200105;05;Urgencia Ambulatoria (SAPU);Baja Complejidad;La Serena;5
+01-912;SUR Putre;SUR;1;True;False;legacy NN-NNN;200849;01;Urgencia Ambulatoria (SUR);Baja Complejidad;Putre;1
+05-928;SAPU Fray Jorge;SAPU;5;True;False;legacy NN-NNN;200721;05;Urgencia Ambulatoria (SAPU);Baja Complejidad;Ovalle;5
+05-935;SUR Pichasca;SUR;5;True;False;legacy NN-NNN;200739;05;Urgencia Ambulatoria (SUR);Baja Complejidad;Río Hurtado;5
+02-806;SAR Sur de Iquique;SAR;2;True;False;legacy NN-NNN;102806;02;Urgencia Ambulatoria (SAR);Baja Complejidad;Iquique;2
+05-934;SUR Punitaqui;SUR;5;True;False;legacy NN-NNN;200738;05;Urgencia Ambulatoria (SUR);Baja Complejidad;Punitaqui;5
+02-924;CEAR Camiña;CEAR;2;True;False;legacy NN-NNN;200880;02;;Baja Complejidad;Camiña;2
+02-919;SUR Cariquima;SUR;2;True;False;legacy NN-NNN;200753;02;Urgencia Ambulatoria (SUR);Baja Complejidad;Colchane;2
+05-937;SUR Tamaya;SUR;5;True;False;legacy NN-NNN;200741;05;Urgencia Ambulatoria (SUR);Baja Complejidad;Ovalle;5
+05-942;SAPU El Sauce;SAPU;5;True;False;legacy NN-NNN;200928;05;Urgencia Ambulatoria (SAPU);Baja Complejidad;Coquimbo;5
+05-940;SAPU Lila Cortés;SAPU;5;True;False;legacy NN-NNN;200848;05;Urgencia Ambulatoria (SAPU);Baja Complejidad;Coquimbo;5
+05-938;SUR Sotaquí;SUR;5;True;False;legacy NN-NNN;200742;05;Urgencia Ambulatoria (SUR);Baja Complejidad;Ovalle;5
+02-900;SAPU Huara;SAPU;2;True;False;legacy NN-NNN;200096;02;Urgencia Ambulatoria (SAPU);Baja Complejidad;Huara;2
+02-925;CEAR Colchane;CEAR;2;True;False;legacy NN-NNN;200881;02;;Baja Complejidad;Colchane;2
+06-100;Hospital Carlos Van Buren (Valparaíso);Hospital;6;True;False;legacy NN-NNN;106100;06;Urgencia Hospitalaria (UEH);Alta Complejidad;Valparaíso;6
+06-103;Hospital Claudio Vicuña ( San Antonio);Hospital;6;True;False;legacy NN-NNN;106103;06;Urgencia Hospitalaria (UEH);Alta Complejidad;San Antonio;6
+06-105;Hospital San José (Casablanca);Hospital;6;True;False;legacy NN-NNN;106105;06;Urgencia Hospitalaria (UEH);Baja Complejidad;Casablanca;6
+06-800;SAPU Placeres;SAPU;6;True;False;legacy NN-NNN;106800;06;Urgencia Ambulatoria (SAPU);Baja Complejidad;Valparaíso;6
+06-804;SAPU Placilla;SAPU;6;True;False;legacy NN-NNN;106804;06;Urgencia Ambulatoria (SAPU);Baja Complejidad;Valparaíso;6
+06-811;SAPU Quebrada Verde;SAPU;6;True;False;legacy NN-NNN;106811;06;Urgencia Ambulatoria (SAPU);Baja Complejidad;Valparaíso;6
+07-109;Hospital Juana Ross de Edwards (Peñablanca, Villa Alemana);Hospital;7;True;False;legacy NN-NNN;107109;07;Urgencia Hospitalaria (UEH);Baja Complejidad;Villa Alemana;7
+06-826;SAPU Cartagena;SAPU;6;True;False;legacy NN-NNN;106826;06;Urgencia Ambulatoria (SAPU);Baja Complejidad;Cartagena;6
+06-827;SAPU Algarrobo;SAPU;6;True;False;legacy NN-NNN;106827;06;Urgencia Ambulatoria (SAPU);Baja Complejidad;Algarrobo;6
+06-828;SAPU El Quisco;SAPU;6;True;False;legacy NN-NNN;200695;06;Urgencia Ambulatoria (SAPU);Baja Complejidad;El Quisco;6
+06-829;SAR Nestor Fernández Thomas;SAR;6;True;False;legacy NN-NNN;106829;06;Urgencia Ambulatoria (SAR);Baja Complejidad;San Antonio;6
+06-900;SAPU Barrancas;SAPU;6;True;False;legacy NN-NNN;200106;06;Urgencia Ambulatoria (SAPU);Baja Complejidad;San Antonio;6
+06-901;SAPU Diputado Manuel Bustos Huerta;SAPU;6;True;False;legacy NN-NNN;200107;06;Urgencia Ambulatoria (SAPU);Baja Complejidad;San Antonio;6
+06-902;SAPU Marcelo Mena;SAPU;6;True;False;legacy NN-NNN;200108;06;Urgencia Ambulatoria (SAPU);Baja Complejidad;Valparaíso;6
+07-100;Hospital Dr. Gustavo Fricke (Viña del Mar);Hospital;7;True;False;legacy NN-NNN;107100;07;Urgencia Hospitalaria (UEH);Alta Complejidad;Viña del Mar;7
+07-105;Hospital San Agustín (La Ligua);Hospital;7;True;False;legacy NN-NNN;107105;07;Urgencia Hospitalaria (UEH);Baja Complejidad;La Ligua;7
+07-107;Hospital de Petorca;Hospital;7;True;False;legacy NN-NNN;107107;07;Urgencia Hospitalaria (UEH);Baja Complejidad;Petorca;7
+07-800;SAPU Nueva Aurora;SAPU;7;True;False;legacy NN-NNN;107800;07;Urgencia Ambulatoria (SAPU);Baja Complejidad;Viña del Mar;7
+06-903;SAPU Reina Isabel II;SAPU;6;True;False;legacy NN-NNN;200109;06;Urgencia Ambulatoria (SAPU);Baja Complejidad;Valparaíso;6
+06-904;SAR Plan de Valparaíso;SAR;6;True;False;legacy NN-NNN;200268;06;Urgencia Ambulatoria (SAR);Baja Complejidad;Valparaíso;6
+06-912;SUR Juan Fernández;SUR;6;True;False;legacy NN-NNN;200729;06;Urgencia Ambulatoria (SUR);Baja Complejidad;Juan Fernández;6
+06-917;SUR El Quisco;SUR;6;True;False;legacy NN-NNN;200925;06;Urgencia Ambulatoria (SUR);Baja Complejidad;El Quisco;6
+06-909;SAPU El Tabo;SAPU;6;True;False;legacy NN-NNN;200611;06;Urgencia Ambulatoria (SAPU);Baja Complejidad;El Tabo;6
+06-914;SUR Laguna Verde;SUR;6;True;False;legacy NN-NNN;200731;06;Urgencia Ambulatoria (SUR);Baja Complejidad;Valparaíso;6
+06-918;SUR El Tabo;SUR;6;True;False;legacy NN-NNN;200926;06;Urgencia Ambulatoria (SUR);Baja Complejidad;El Tabo;6
+06-920;CEAR Rocas de Santo Domingo;CEAR;6;True;False;legacy NN-NNN;200930;06;;Baja Complejidad;Santo Domingo;6
+07-101;Hospital Biprovincial Quillota Petorca;Hospital;7;True;False;legacy NN-NNN;107101;07;Urgencia Hospitalaria (UEH);Alta Complejidad;Quillota;7
+07-103;Hospital Dr. Mario Sánchez Vergara (La Calera);Hospital;7;True;False;legacy NN-NNN;107103;07;Urgencia Hospitalaria (UEH);Baja Complejidad;Calera;7
+07-802;SAPU Miraflores;SAPU;7;True;False;legacy NN-NNN;107802;07;Urgencia Ambulatoria (SAPU);Baja Complejidad;Viña del Mar;7
+07-805;SAR Concón;SAR;7;True;False;legacy NN-NNN;107805;07;Urgencia Ambulatoria (SAR);Baja Complejidad;Con Con;7
+07-104;Hospital Santo Tomás (Limache);Hospital;7;True;False;legacy NN-NNN;107104;07;Urgencia Hospitalaria (UEH);Baja Complejidad;Limache;7
+07-108;Hospital Adriana Cousiño (Quintero);Hospital;7;True;False;legacy NN-NNN;107108;07;Urgencia Hospitalaria (UEH);Baja Complejidad;Quintero;7
+08-811;SAPU San Felipe;SAPU;8;True;False;legacy NN-NNN;108811;08;Urgencia Ambulatoria (SAPU);Baja Complejidad;San Felipe;8
+07-106;Hospital Dr. Víctor Hugo Moll (Cabildo);Hospital;7;True;False;legacy NN-NNN;107106;07;Urgencia Hospitalaria (UEH);Baja Complejidad;Cabildo;7
+08-912;SAR Centenario;SAR;8;True;False;legacy NN-NNN;201045;08;Urgencia Ambulatoria (SAR);Baja Complejidad;Los Andes;8
+09-100;Complejo Hospitalario San José (Santiago, Independencia);Hospital;9;True;False;legacy NN-NNN;109100;09;Urgencia Hospitalaria (UEH);Alta Complejidad;Independencia;9
+09-101;Hospital Clínico de Niños Dr. Roberto del Río (Santiago, Independencia);Hospital;9;True;False;legacy NN-NNN;109101;09;Urgencia Hospitalaria (UEH);Alta Complejidad;Independencia;9
+09-102;Instituto Psiquiátrico  Dr. José Horwitz Barak (Santiago, Recoleta);Hospital;9;True;False;legacy NN-NNN;109102;09;Hospitalaria Especializada;Alta Complejidad;Recoleta;9
+09-104;Hospital de Til Til;Hospital;9;True;False;legacy NN-NNN;109104;09;Urgencia Hospitalaria (UEH);Baja Complejidad;Tiltil;9
+09-801;SAR Recoleta;SAR;9;True;False;legacy NN-NNN;109801;09;Urgencia Ambulatoria (SAR);Baja Complejidad;Recoleta;9
+10-160;Hospital de Curacaví;Hospital;10;True;False;legacy NN-NNN;110160;10;Urgencia Hospitalaria (UEH);Baja Complejidad;Curacaví;10
+10-150;Hospital San José (Melipilla);Hospital;10;True;False;legacy NN-NNN;110150;10;Urgencia Hospitalaria (UEH);Alta Complejidad;Melipilla;10
+09-802;SAPU Lucas Sierra;SAPU;9;True;False;legacy NN-NNN;109802;09;Urgencia Ambulatoria (SAPU);Baja Complejidad;Conchalí;9
+09-804;SAPU Valdivieso;SAPU;9;True;False;legacy NN-NNN;109804;09;Urgencia Ambulatoria (SAPU);Baja Complejidad;Recoleta;9
+09-805;SAR La Pincoya;SAR;9;True;False;legacy NN-NNN;109805;09;Urgencia Ambulatoria (SAR);Baja Complejidad;Huechuraba;9
+09-808;SAPU Alberto Bachelet Martínez;SAPU;9;True;False;legacy NN-NNN;109808;09;Urgencia Ambulatoria (SAPU);Baja Complejidad;Conchalí;9
+09-809;SAR Conchalí;SAR;9;True;False;legacy NN-NNN;109809;09;Urgencia Ambulatoria (SAR);Baja Complejidad;Conchalí;9
+09-810;SAR Colina;SAR;9;True;False;legacy NN-NNN;109810;09;Urgencia Ambulatoria (SAR);Baja Complejidad;Colina;9
+09-811;SAPU José Bauzá Frau;SAPU;9;True;False;legacy NN-NNN;109811;09;Urgencia Ambulatoria (SAPU);Baja Complejidad;Lampa;9
+09-813;SAPU Nº 2 Irene Frei de Cid;SAPU;9;True;False;legacy NN-NNN;109813;09;Urgencia Ambulatoria (SAPU);Baja Complejidad;Quilicura;9
+09-815;SAPU Nº 1 Rodrigo Rojas Denegri;SAPU;9;True;False;legacy NN-NNN;109815;09;Urgencia Ambulatoria (SAPU);Baja Complejidad;Quilicura;9
+09-821;SAPU Juan Antonio Rios;SAPU;9;True;False;legacy NN-NNN;109821;09;Urgencia Ambulatoria (SAPU);Baja Complejidad;Independencia;9
+09-824;SAPU Presidente Salvador Allende Gossens;SAPU;9;True;False;legacy NN-NNN;109824;09;Urgencia Ambulatoria (SAPU);Baja Complejidad;Quilicura;9
+09-890;SAPU Cristo Vive;SAPU;9;True;False;legacy NN-NNN;109890;09;Urgencia Ambulatoria (SAPU);Baja Complejidad;Recoleta;9
+09-909;SUR Batuco;SUR;9;True;False;legacy NN-NNN;200743;09;Urgencia Ambulatoria (SUR);Baja Complejidad;Lampa;9
+09-914;SAPU Esmeralda;SAPU;9;True;False;legacy NN-NNN;200955;09;Urgencia Ambulatoria (SAPU);Baja Complejidad;Colina;9
+09-941;SAPU Libertadores;SAPU;9;True;False;legacy NN-NNN;200041;09;Urgencia Ambulatoria (SAPU);Baja Complejidad;Huechuraba;9
+10-100;Hospital San Juan de Dios (Santiago, Santiago);Hospital;10;True;False;legacy NN-NNN;110100;10;Urgencia Hospitalaria (UEH);Alta Complejidad;Santiago;10
+10-110;Instituto Traumatológico Dr. Teodoro Gebauer;Hospital;10;True;False;legacy NN-NNN;110110;10;Hospitalaria Especializada;Alta Complejidad;Santiago;10
+10-120;Hospital Félix Bulnes Cerda;Hospital;10;True;False;legacy NN-NNN;110120;10;Urgencia Hospitalaria (UEH);Alta Complejidad;Cerro Navia;10
+10-130;Hospital Adalberto Steeger (Talagante);Hospital;10;True;False;legacy NN-NNN;110130;10;Urgencia Hospitalaria (UEH);Mediana Complejidad;Talagante;10
+10-140;Hospital de Peñaflor;Hospital;10;True;False;legacy NN-NNN;110140;10;Urgencia Hospitalaria (UEH);Mediana Complejidad;Peñaflor;10
+12-806;SAPU Aníbal Ariztía;SAPU;12;True;False;legacy NN-NNN;112806;12;Urgencia Ambulatoria (SAPU);Baja Complejidad;Las Condes;12
+12-107;Hospital Hanga Roa (Isla De Pascua);Hospital;12;True;False;legacy NN-NNN;112107;12;Urgencia Hospitalaria (UEH);Baja Complejidad;Isla de Pascua;12
+10-860;SAR Renca;SAR;10;True;False;legacy NN-NNN;110860;10;Urgencia Ambulatoria (SAR);Baja Complejidad;Renca;10
+10-867;SAPU Santa Rosa de Chena;SAPU;10;True;False;legacy NN-NNN;110867;10;Urgencia Ambulatoria (SAPU);Baja Complejidad;Padre Hurtado;10
+10-891;SAPU Marcela Jaques Vargas;SAPU;10;True;False;legacy NN-NNN;110891;10;Urgencia Ambulatoria (SAPU);Baja Complejidad;Talagante;10
+10-900;SAPU Luis Chavarría;SAPU;10;True;False;legacy NN-NNN;200118;10;Urgencia Ambulatoria (SAPU);Baja Complejidad;Cerro Navia;10
+10-901;SAPU Dr. Alberto Allende Jones;SAPU;10;True;False;legacy NN-NNN;200119;10;Urgencia Ambulatoria (SAPU);Baja Complejidad;Talagante;10
+10-902;SAPU Dr. Arturo Albertz;SAPU;10;True;False;legacy NN-NNN;200120;10;Urgencia Ambulatoria (SAPU);Baja Complejidad;Cerro Navia;10
+10-903;SAPU Dr. Avendaño;SAPU;10;True;False;legacy NN-NNN;200121;10;Urgencia Ambulatoria (SAPU);Baja Complejidad;Lo Prado;10
+10-904;SAPU Dr. Fernando Monckeberg;SAPU;10;True;False;legacy NN-NNN;200122;10;Urgencia Ambulatoria (SAPU);Baja Complejidad;Peñaflor;10
+10-905;SAPU Dr. Francisco Boris Soler;SAPU;10;True;False;legacy NN-NNN;200123;10;Urgencia Ambulatoria (SAPU);Baja Complejidad;Melipilla;10
+10-906;SAPU Dr. Gustavo Molina;SAPU;10;True;False;legacy NN-NNN;200124;10;Urgencia Ambulatoria (SAPU);Baja Complejidad;Pudahuel;10
+10-907;SAR Dr. Raúl Yazigi;SAR;10;True;False;legacy NN-NNN;200125;10;Urgencia Ambulatoria (SAR);Baja Complejidad;Lo Prado;10
+10-908;SAPU Garín;SAPU;10;True;False;legacy NN-NNN;200126;10;Urgencia Ambulatoria (SAPU);Baja Complejidad;Quinta Normal;10
+10-909;SAPU Isla de Maipo;SAPU;10;True;False;legacy NN-NNN;200127;10;Urgencia Ambulatoria (SAPU);Baja Complejidad;Isla de Maipo;10
+10-910;SAPU Lo Franco;SAPU;10;True;False;legacy NN-NNN;200128;10;Urgencia Ambulatoria (SAPU);Baja Complejidad;Quinta Normal;10
+10-911;SAPU Pablo Neruda;SAPU;10;True;False;legacy NN-NNN;200129;10;Urgencia Ambulatoria (SAPU);Baja Complejidad;Lo Prado;10
+10-912;SAPU Peñaflor;SAPU;10;True;False;legacy NN-NNN;200130;10;Urgencia Ambulatoria (SAPU);Baja Complejidad;Peñaflor;10
+10-913;SAPU Violeta Parra;SAPU;10;True;False;legacy NN-NNN;200131;10;Urgencia Ambulatoria (SAPU);Baja Complejidad;Pudahuel;10
+10-914;SAPU María Pinto;SAPU;10;True;False;legacy NN-NNN;200132;10;Urgencia Ambulatoria (SAPU);Baja Complejidad;Maria Pinto;10
+10-915;SAR Bicentenario;SAR;10;True;False;legacy NN-NNN;200133;10;Urgencia Ambulatoria (SAR);Baja Complejidad;Renca;10
+10-916;SAPU Dr. Adalberto Steeger;SAPU;10;True;False;legacy NN-NNN;200134;10;Urgencia Ambulatoria (SAPU);Baja Complejidad;Cerro Navia;10
+10-917;SAPU Dr. Edelberto Elgueta;SAPU;10;True;False;legacy NN-NNN;200135;10;Urgencia Ambulatoria (SAPU);Baja Complejidad;Melipilla;10
+10-918;SAPU El Monte;SAPU;10;True;False;legacy NN-NNN;200136;10;Urgencia Ambulatoria (SAPU);Baja Complejidad;El Monte;10
+10-919;SAPU Huamachuco;SAPU;10;True;False;legacy NN-NNN;200137;10;Urgencia Ambulatoria (SAPU);Baja Complejidad;Renca;10
+10-920;SAR La Estrella;SAR;10;True;False;legacy NN-NNN;200138;10;Urgencia Ambulatoria (SAR);Baja Complejidad;Pudahuel;10
+10-921;SAPU Pudahuel Poniente;SAPU;10;True;False;legacy NN-NNN;200139;10;Urgencia Ambulatoria (SAPU);Baja Complejidad;Pudahuel;10
+10-922;SAPU Santa Anita;SAPU;10;True;False;legacy NN-NNN;200140;10;Urgencia Ambulatoria (SAPU);Baja Complejidad;Lo Prado;10
+10-929;SAR Oriente María Eugenia Torres;SAR;10;True;False;legacy NN-NNN;200479;10;Urgencia Ambulatoria (SAR);Baja Complejidad;Talagante;10
+10-932;SUR Isla de Maipo;SUR;10;True;False;legacy NN-NNN;200876;10;Urgencia Ambulatoria (SUR);Baja Complejidad;Isla de Maipo;10
+10-933;SUR San Pedro;SUR;10;True;False;legacy NN-NNN;200877;10;Urgencia Ambulatoria (SUR);Baja Complejidad;San Pedro;10
+10-934;SUR Villa Alhué;SUR;10;True;False;legacy NN-NNN;200878;10;Urgencia Ambulatoria (SUR);Baja Complejidad;Alhué;10
+10-939;SAR Violeta Parra;SAR;10;True;False;legacy NN-NNN;201015;10;Urgencia Ambulatoria (SAR);Baja Complejidad;Pudahuel;10
+11-100;Hospital Clínico San Borja Arriarán;Hospital;11;True;False;legacy NN-NNN;111100;11;Urgencia Hospitalaria (UEH);Alta Complejidad;Santiago;11
+11-101;Hospital Clínico Metropolitano El Carmen Doctor Luis Valentín Ferrada;Hospital;11;True;False;legacy NN-NNN;111101;11;Urgencia Hospitalaria (UEH);Alta Complejidad;Maipú;11
+11-195;Hospital de Urgencia Asistencia Pública Dr. Alejandro del Río;Hospital;11;True;False;legacy NN-NNN;111195;11;Urgencia Hospitalaria (UEH);Alta Complejidad;Santiago;11
+11-800;SAPU Consultorio Nº1;SAPU;11;True;False;legacy NN-NNN;111800;11;Urgencia Ambulatoria (SAPU);Baja Complejidad;Santiago;11
+11-804;SAPU Maipú;SAPU;11;True;False;legacy NN-NNN;111804;11;Urgencia Ambulatoria (SAPU);Baja Complejidad;Maipú;11
+11-805;SAPU Dr. Norman Voulliéme;SAPU;11;True;False;legacy NN-NNN;111805;11;Urgencia Ambulatoria (SAPU);Baja Complejidad;Cerrillos;11
+11-806;SAPU San José de Chuchunco;SAPU;11;True;False;legacy NN-NNN;111806;11;Urgencia Ambulatoria (SAPU);Baja Complejidad;Estación Central;11
+11-809;SAPU Dra. Ana María Juricic;SAPU;11;True;False;legacy NN-NNN;111809;11;Urgencia Ambulatoria (SAPU);Baja Complejidad;Maipú;11
+11-900;SAPU Padre Vicente Irarrázabal;SAPU;11;True;False;legacy NN-NNN;200117;11;Urgencia Ambulatoria (SAPU);Baja Complejidad;Estación Central;11
+11-901;SAPU Dr. Iván Insunza;SAPU;11;True;False;legacy NN-NNN;200141;11;Urgencia Ambulatoria (SAPU);Baja Complejidad;Maipú;11
+11-903;SAR Enfermera Sofía Pincheira;SAR;11;True;False;legacy NN-NNN;200189;11;Urgencia Ambulatoria (SAR);Baja Complejidad;Cerrillos;11
+11-923;SAPU Ignacio Domeyko;SAPU;11;True;False;legacy NN-NNN;200933;11;Urgencia Ambulatoria (SAPU);Baja Complejidad;Santiago;11
+12-100;Hospital Del Salvador (Santiago, Providencia);Hospital;12;True;False;legacy NN-NNN;112100;12;Urgencia Hospitalaria (UEH);Alta Complejidad;Providencia;12
+12-101;Hospital Dr. Luis Tisné B. (Santiago, Peñalolén);Hospital;12;True;False;legacy NN-NNN;112101;12;Urgencia Hospitalaria (UEH);Alta Complejidad;Peñalolén;12
+12-102;Hospital de Niños Dr. Luis Calvo Mackenna (Santiago, Providencia);Hospital;12;True;False;legacy NN-NNN;112102;12;Urgencia Hospitalaria (UEH);Alta Complejidad;Providencia;12
+18-108;Hospital de Florida;Hospital;18;True;False;legacy NN-NNN;118108;18;Urgencia Hospitalaria (UEH);Baja Complejidad;Florida;18
+18-806;SAR Tucapel;SAR;18;True;False;legacy NN-NNN;118806;18;Urgencia Ambulatoria (SAR);Baja Complejidad;Concepción;18
+18-105;Hospital San José (Coronel);Hospital;18;True;False;legacy NN-NNN;118105;18;Urgencia Hospitalaria (UEH);Alta Complejidad;Coronel;18
+12-807;SAPU Lo Barnechea;SAPU;12;True;False;legacy NN-NNN;112807;12;Urgencia Ambulatoria (SAPU);Baja Complejidad;Lo Barnechea;12
+12-810;SAPU Rosita Renard;SAPU;12;True;False;legacy NN-NNN;112810;12;Urgencia Ambulatoria (SAPU);Baja Complejidad;Ñuñoa;12
+12-813;SAPU Santa Julia;SAPU;12;True;False;legacy NN-NNN;112813;12;Urgencia Ambulatoria (SAPU);Baja Complejidad;Macul;12
+12-814;SAPU La Faena;SAPU;12;True;False;legacy NN-NNN;112814;12;Urgencia Ambulatoria (SAPU);Baja Complejidad;Peñalolén;12
+12-815;SAPU San Luis;SAPU;12;True;False;legacy NN-NNN;112815;12;Urgencia Ambulatoria (SAPU);Baja Complejidad;Peñalolén;12
+12-816;SAR Carol Urzúa Ibáñez;SAR;12;True;False;legacy NN-NNN;112816;12;Urgencia Ambulatoria (SAR);Baja Complejidad;Peñalolén;12
+12-818;SAPU Lo Hermida;SAPU;12;True;False;legacy NN-NNN;112818;12;Urgencia Ambulatoria (SAPU);Baja Complejidad;Peñalolén;12
+12-820;;SAPU;12;True;False;legacy NN-NNN;112820;12;Urgencia Ambulatoria (SAPU);Baja Complejidad;Ñuñoa;12
+12-903;;SAPU;12;True;False;legacy NN-NNN;200142;12;Urgencia Ambulatoria (SAPU);Baja Complejidad;La Reina;12
+12-904;SAPU Aguilucho;SAPU;12;True;False;legacy NN-NNN;200143;12;Urgencia Ambulatoria (SAPU);Baja Complejidad;Providencia;12
+13-100;Hospital Barros Luco Trudeau (Santiago, San Miguel);Hospital;13;True;False;legacy NN-NNN;113100;13;Urgencia Hospitalaria (UEH);Alta Complejidad;San Miguel;13
+13-130;Hospital Dr. Exequiel González Cortés (Santiago, San Miguel);Hospital;13;True;False;legacy NN-NNN;113130;13;Urgencia Hospitalaria (UEH);Alta Complejidad;San Miguel;13
+13-150;Hospital San Luis (Buin);Hospital;13;True;False;legacy NN-NNN;113150;13;Urgencia Hospitalaria (UEH);Mediana Complejidad;Buin;13
+13-180;Hospital El Pino (Santiago, San Bernardo);Hospital;13;True;False;legacy NN-NNN;113180;13;Urgencia Hospitalaria (UEH);Alta Complejidad;San Bernardo;13
+13-190;Hospital Parroquial de San Bernardo (D);Hospital;13;True;False;legacy NN-NNN;113190;13;Urgencia Hospitalaria (UEH);Alta Complejidad;San Bernardo;13
+13-802;SAR San Miguel;SAR;13;True;False;legacy NN-NNN;113802;13;Urgencia Ambulatoria (SAR);Baja Complejidad;San Miguel;13
+13-803;SAR Dr. Amador Neghme R.;SAR;13;True;False;legacy NN-NNN;113803;13;Urgencia Ambulatoria (SAR);Baja Complejidad;Pedro Aguirre Cerda;13
+13-806;SAPU La Feria;SAPU;13;True;False;legacy NN-NNN;113806;13;Urgencia Ambulatoria (SAPU);Baja Complejidad;Pedro Aguirre Cerda;13
+13-807;SAPU Padre Esteban Gumucio;SAPU;13;True;False;legacy NN-NNN;113807;14;Urgencia Ambulatoria (SAPU);Baja Complejidad;La Granja;14
+13-808;SAPU Clara Estrella;SAPU;13;True;False;legacy NN-NNN;113808;13;Urgencia Ambulatoria (SAPU);Baja Complejidad;Lo Espejo;13
+13-809;SAR Julio Acuña Pinzón;SAR;13;True;False;legacy NN-NNN;113809;13;Urgencia Ambulatoria (SAR);Baja Complejidad;Lo Espejo;13
+13-812;SAPU Dr. Carlos Lorca;SAPU;13;True;False;legacy NN-NNN;113812;13;Urgencia Ambulatoria (SAPU);Baja Complejidad;El Bosque;13
+13-813;SAPU Raúl Cuevas (Ex-San Bernardo);SAPU;13;True;False;legacy NN-NNN;113813;13;Urgencia Ambulatoria (SAPU);Baja Complejidad;San Bernardo;13
+13-814;SAPU Cóndores de Chile;SAPU;13;True;False;legacy NN-NNN;113814;13;Urgencia Ambulatoria (SAPU);Baja Complejidad;El Bosque;13
+13-815;SAPU Confraternidad;SAPU;13;True;False;legacy NN-NNN;113815;13;Urgencia Ambulatoria (SAPU);Baja Complejidad;San Bernardo;13
+13-818;SAPU Paine;SAPU;13;True;False;legacy NN-NNN;113818;13;Urgencia Ambulatoria (SAPU);Baja Complejidad;Paine;13
+13-820;SAPU Dra. Mariela Salgado;SAPU;13;True;False;legacy NN-NNN;113820;13;Urgencia Ambulatoria (SAPU);Baja Complejidad;Lo Espejo;13
+13-822;SAPU Santa Teresa de Los Andes;SAPU;13;True;False;legacy NN-NNN;113822;13;Urgencia Ambulatoria (SAPU);Baja Complejidad;San Joaquín;13
+13-823;SAR Haydee López;SAR;13;True;False;legacy NN-NNN;113823;13;Urgencia Ambulatoria (SAR);Baja Complejidad;El Bosque;13
+13-826;SAPU Eduardo Frei Montalva;SAPU;13;True;False;legacy NN-NNN;113826;13;Urgencia Ambulatoria (SAPU);Baja Complejidad;La Cisterna;13
+13-828;SAPU Padre Joan Alsina;SAPU;13;True;False;legacy NN-NNN;113828;13;Urgencia Ambulatoria (SAPU);Baja Complejidad;San Bernardo;13
+13-829;SAR Eugenia Muñoz Dalmatín;SAR;13;True;False;legacy NN-NNN;113829;13;Urgencia Ambulatoria (SAR);Baja Complejidad;San Bernardo;13
+13-830;SAPU Raúl Brañes F.;SAPU;13;True;False;legacy NN-NNN;113830;13;Urgencia Ambulatoria (SAPU);Baja Complejidad;San Bernardo;13
+13-831;SAPU Edgardo Enriquez Froedden;SAPU;13;True;False;legacy NN-NNN;113831;13;Urgencia Ambulatoria (SAPU);Baja Complejidad;Pedro Aguirre Cerda;13
+13-832;SAPU Juan Pablo II;SAPU;13;True;False;legacy NN-NNN;113832;13;Urgencia Ambulatoria (SAPU);Baja Complejidad;San Bernardo;13
+13-890;SAPU Buin;SAPU;13;True;False;legacy NN-NNN;113890;13;Urgencia Ambulatoria (SAPU);Baja Complejidad;Buin;13
+13-910;SAPU Santa Laura;SAPU;13;True;False;legacy NN-NNN;200010;13;Urgencia Ambulatoria (SAPU);Baja Complejidad;El Bosque;13
+13-911;SAR Enrique Molina;SAR;13;True;False;legacy NN-NNN;200011;13;Urgencia Ambulatoria (SAR);Baja Complejidad;San Joaquín;13
+13-919;SUR Alto Jahuel;SUR;13;True;False;legacy NN-NNN;200966;13;Urgencia Ambulatoria (SUR);Baja Complejidad;Buin;13
+13-920;SUR Los Bajos de San Agustín;SUR;13;True;False;legacy NN-NNN;200967;13;Urgencia Ambulatoria (SUR);Baja Complejidad;Calera de Tango;13
+13-921;SUR Maipo;SUR;13;True;False;legacy NN-NNN;200968;13;Urgencia Ambulatoria (SUR);Baja Complejidad;Buin;13
+13-922;SUR Dr. Raúl Moya;SUR;13;True;False;legacy NN-NNN;200969;13;Urgencia Ambulatoria (SUR);Baja Complejidad;Paine;13
+14-101;Complejo Hospitalario Dr. Sótero del Río (Santiago, Puente Alto);Hospital;14;True;False;legacy NN-NNN;114101;14;Urgencia Hospitalaria (UEH);Alta Complejidad;Puente Alto;14
+14-102;Hospital San José de Maipo;Hospital;14;True;False;legacy NN-NNN;114102;14;Urgencia Hospitalaria (UEH);Mediana Complejidad;San José de Maipo;14
+14-103;Hospital Padre Alberto Hurtado (San Ramón);Hospital;14;True;False;legacy NN-NNN;114103;14;Urgencia Hospitalaria (UEH);Alta Complejidad;San Ramón;14
+14-105;Hospital Clínico Metropolitano La Florida Dra. Eloisa Diaz Insunza;Hospital;14;True;False;legacy NN-NNN;114105;14;Urgencia Hospitalaria (UEH);Alta Complejidad;La Florida;14
+14-801;SAPU Dr. Alejandro del Río;SAPU;14;True;False;legacy NN-NNN;114801;14;Urgencia Ambulatoria (SAPU);Baja Complejidad;Puente Alto;14
+14-802;SAPU Los Castaños;SAPU;14;True;False;legacy NN-NNN;114802;14;Urgencia Ambulatoria (SAPU);Baja Complejidad;La Florida;14
+14-804;SAPU Villa O'Higgins;SAPU;14;True;False;legacy NN-NNN;114804;14;Urgencia Ambulatoria (SAPU);Baja Complejidad;La Florida;14
+14-805;SAPU Los Quillayes;SAPU;14;True;False;legacy NN-NNN;114805;14;Urgencia Ambulatoria (SAPU);Baja Complejidad;La Florida;14
+14-806;SAPU La Granja;SAPU;14;True;False;legacy NN-NNN;114806;14;Urgencia Ambulatoria (SAPU);Baja Complejidad;La Granja;14
+14-807;SAR La Bandera;SAR;14;True;False;legacy NN-NNN;114807;14;Urgencia Ambulatoria (SAR);Baja Complejidad;San Ramón;14
+14-808;SAPU San Rafael;SAPU;14;True;False;legacy NN-NNN;114808;14;Urgencia Ambulatoria (SAPU);Baja Complejidad;La Pintana;14
+14-809;SAPU Pablo de Rokha;SAPU;14;True;False;legacy NN-NNN;114809;14;Urgencia Ambulatoria (SAPU);Baja Complejidad;La Pintana;14
+14-811;SAPU Santiago de Nueva Extremadura;SAPU;14;True;False;legacy NN-NNN;114811;14;Urgencia Ambulatoria (SAPU);Baja Complejidad;La Pintana;14
+14-812;SAPU San Gerónimo;SAPU;14;True;False;legacy NN-NNN;114812;14;Urgencia Ambulatoria (SAPU);Baja Complejidad;Puente Alto;14
+14-814;SAPU San Ramón;SAPU;14;True;False;legacy NN-NNN;114814;14;Urgencia Ambulatoria (SAPU);Baja Complejidad;San Ramón;14
+07-808;SAR El Belloto Sur;SAR;7;True;False;legacy NN-NNN;107808;07;Urgencia Ambulatoria (SAR);Baja Complejidad;Quilpué;7
+14-816;SAPU Dr. Fernando Maffioletti;SAPU;14;True;False;legacy NN-NNN;114816;14;Urgencia Ambulatoria (SAPU);Baja Complejidad;La Florida;14
+07-815;SAPU Ventanas;SAPU;7;True;False;legacy NN-NNN;107815;07;Urgencia Ambulatoria (SAPU);Baja Complejidad;Puchuncaví;7
+07-821;SAPU Artificio;SAPU;7;True;False;legacy NN-NNN;107821;07;Urgencia Ambulatoria (SAPU);Baja Complejidad;Calera;7
+14-817;SAPU Santo Tomás;SAPU;14;True;False;legacy NN-NNN;114817;14;Urgencia Ambulatoria (SAPU);Baja Complejidad;La Pintana;14
+14-819;SAPU El Roble;SAPU;14;True;False;legacy NN-NNN;114819;14;Urgencia Ambulatoria (SAPU);Baja Complejidad;La Pintana;14
+14-820;SAPU Bernardo Leighton;SAPU;14;True;False;legacy NN-NNN;114820;14;Urgencia Ambulatoria (SAPU);Baja Complejidad;Puente Alto;14
+14-821;SAPU Cardenal Silva Henríquez de Puente Alto;SAPU;14;True;False;legacy NN-NNN;114821;14;Urgencia Ambulatoria (SAPU);Baja Complejidad;Puente Alto;14
+14-822;SAR Padre Manuel Villaseca;SAR;14;True;False;legacy NN-NNN;114822;14;Urgencia Ambulatoria (SAR);Baja Complejidad;Puente Alto;14
+14-824;SAPU Santa Amalia;SAPU;14;True;False;legacy NN-NNN;114824;14;Urgencia Ambulatoria (SAPU);Baja Complejidad;La Florida;14
+14-825;SAPU Granja Sur;SAPU;14;True;False;legacy NN-NNN;114825;14;Urgencia Ambulatoria (SAPU);Baja Complejidad;La Granja;14
+14-826;SAPU Karol Wojtyla;SAPU;14;True;False;legacy NN-NNN;114826;14;Urgencia Ambulatoria (SAPU);Baja Complejidad;Puente Alto;14
+14-828;SAPU Poetisa Gabriela Mistral;SAPU;14;True;False;legacy NN-NNN;114828;14;Urgencia Ambulatoria (SAPU);Baja Complejidad;San Ramón;14
+07-828;SAPU Eduardo Frei Montalva;SAPU;7;True;False;legacy NN-NNN;107828;07;Urgencia Ambulatoria (SAPU);Baja Complejidad;Villa Alemana;7
+14-831;SAPU La Florida;SAPU;14;True;False;legacy NN-NNN;114831;14;Urgencia Ambulatoria (SAPU);Baja Complejidad;La Florida;14
+07-900;SAPU Gómez Carreño;SAPU;7;True;False;legacy NN-NNN;200110;07;Urgencia Ambulatoria (SAPU);Baja Complejidad;Viña del Mar;7
+07-901;SAPU Las Torres;SAPU;7;True;False;legacy NN-NNN;200111;07;Urgencia Ambulatoria (SAPU);Baja Complejidad;Viña del Mar;7
+14-900;SAPU José Alvo;SAPU;14;True;False;legacy NN-NNN;200144;14;Urgencia Ambulatoria (SAPU);Baja Complejidad;La Florida;14
+14-912;SAPU Dr. José Manuel Balmaceda;SAPU;14;True;False;legacy NN-NNN;200932;14;Urgencia Ambulatoria (SAPU);Baja Complejidad;Pirque;14
+14-951;SAPU Trinidad;SAPU;14;True;False;legacy NN-NNN;200051;14;Urgencia Ambulatoria (SAPU);Baja Complejidad;La Florida;14
+15-100;Hospital Dr. Franco Ravera Zunino;Hospital;15;True;False;legacy NN-NNN;115100;15;Urgencia Hospitalaria (UEH);Alta Complejidad;Rancagua;15
+15-101;Hospital Santa Filomena (Graneros);Hospital;15;True;False;legacy NN-NNN;115101;15;Urgencia Hospitalaria (UEH);Baja Complejidad;Graneros;15
+15-102;Hospital de Coínco;Hospital;15;True;False;legacy NN-NNN;115102;15;Urgencia Hospitalaria (UEH);Baja Complejidad;Coinco;15
+07-903;SAPU Reñaca Alto;SAPU;7;True;False;legacy NN-NNN;200113;07;Urgencia Ambulatoria (SAPU);Baja Complejidad;Viña del Mar;7
+15-103;Hospital Del Salvador (Peumo);Hospital;15;True;False;legacy NN-NNN;115103;15;Urgencia Hospitalaria (UEH);Baja Complejidad;Peumo;15
+15-104;Hospital Dr. Ricardo Valenzuela Sáez (Rengo);Hospital;15;True;False;legacy NN-NNN;115104;15;Urgencia Hospitalaria (UEH);Mediana Complejidad;Rengo;15
+15-105;Hospital San Vicente de Tagua-Tagua;Hospital;15;True;False;legacy NN-NNN;115105;15;Urgencia Hospitalaria (UEH);Baja Complejidad;San Vicente;15
+15-106;Hospital de Pichidegua;Hospital;15;True;False;legacy NN-NNN;115106;15;Urgencia Hospitalaria (UEH);Baja Complejidad;Pichidegua;15
+07-904;SAPU San Pedro;SAPU;7;True;False;legacy NN-NNN;200114;07;Urgencia Ambulatoria (SAPU);Baja Complejidad;Quillota;7
+15-107;Hospital San Juan de Dios (San Fernando);Hospital;15;True;False;legacy NN-NNN;115107;15;Urgencia Hospitalaria (UEH);Alta Complejidad;San Fernando;15
+15-108;Hospital Mercedes (Chimbarongo);Hospital;15;True;False;legacy NN-NNN;115108;15;Urgencia Hospitalaria (UEH);Baja Complejidad;Chimbarongo;15
+15-109;Hospital de Nancagua;Hospital;15;True;False;legacy NN-NNN;115109;15;Urgencia Hospitalaria (UEH);Baja Complejidad;Nancagua;15
+15-110;Hospital de Santa Cruz;Hospital;15;True;False;legacy NN-NNN;115110;15;Urgencia Hospitalaria (UEH);Mediana Complejidad;Santa Cruz;15
+15-111;Hospital de Marchigüe;Hospital;15;True;False;legacy NN-NNN;115111;15;Urgencia Hospitalaria (UEH);Baja Complejidad;Marchihue;15
+15-112;Hospital de Pichilemu;Hospital;15;True;False;legacy NN-NNN;115112;15;Urgencia Hospitalaria (UEH);Baja Complejidad;Pichilemu;15
+15-113;Hospital de Lolol;Hospital;15;True;False;legacy NN-NNN;115113;15;Urgencia Hospitalaria (UEH);Baja Complejidad;Lolol;15
+15-114;Hospital de Litueche;Hospital;15;True;False;legacy NN-NNN;115114;15;Urgencia Hospitalaria (UEH);Baja Complejidad;Litueche;15
+15-800;SAR Enrique Dintrans;SAR;15;True;False;legacy NN-NNN;115800;15;Urgencia Ambulatoria (SAR);Baja Complejidad;Rancagua;15
+15-801;SAPU Eduardo de Geyter;SAPU;15;True;False;legacy NN-NNN;115801;15;Urgencia Ambulatoria (SAPU);Baja Complejidad;Rancagua;15
+15-802;SAPU Abel Zapata;SAPU;15;True;False;legacy NN-NNN;115802;15;Urgencia Ambulatoria (SAPU);Baja Complejidad;Rancagua;15
+15-803;SAR María Latife;SAR;15;True;False;legacy NN-NNN;115803;15;Urgencia Ambulatoria (SAR);Baja Complejidad;Rancagua;15
+15-805;SAPU Machalí;SAPU;15;True;False;legacy NN-NNN;115805;15;Urgencia Ambulatoria (SAPU);Baja Complejidad;Machalí;15
+15-823;SAPU Oriente de San Fernando;SAPU;15;True;False;legacy NN-NNN;115823;15;Urgencia Ambulatoria (SAPU);Baja Complejidad;San Fernando;15
+15-850;SAR Oriente;SAR;15;True;False;legacy NN-NNN;115850;15;Urgencia Ambulatoria (SAR);Baja Complejidad;Rancagua;15
+15-900;SAPU Centro;SAPU;15;True;False;legacy NN-NNN;200145;15;Urgencia Ambulatoria (SAPU);Baja Complejidad;San Fernando;15
+15-901;SAPU Ignacio Caroca;SAPU;15;True;False;legacy NN-NNN;200146;15;Urgencia Ambulatoria (SAPU);Baja Complejidad;Rancagua;15
+15-902;SAPU Rosario;SAPU;15;True;False;legacy NN-NNN;200147;15;Urgencia Ambulatoria (SAPU);Baja Complejidad;Rengo;15
+15-925;SAR Dr. Rienzi Valencia;SAR;15;True;False;legacy NN-NNN;200562;15;Urgencia Ambulatoria (SAR);Baja Complejidad;Rengo;15
+15-926;SAR Santa Cruz;SAR;15;True;False;legacy NN-NNN;200623;15;Urgencia Ambulatoria (SAR);Baja Complejidad;Santa Cruz;15
+15-929;SAR San Vicente de Tagua Tagua;SAR;15;True;False;legacy NN-NNN;200719;15;Urgencia Ambulatoria (SAR);Baja Complejidad;San Vicente;15
+15-935;SUR Peralillo;SUR;15;True;False;legacy NN-NNN;200850;15;Urgencia Ambulatoria (SUR);Baja Complejidad;Peralillo;15
+15-936;SUR Las Cabras;SUR;15;True;False;legacy NN-NNN;200851;15;Urgencia Ambulatoria (SUR);Baja Complejidad;Las Cabras;15
+15-937;SUR San Francisco de Mostazal;SUR;15;True;False;legacy NN-NNN;200852;15;Urgencia Ambulatoria (SUR);Baja Complejidad;Mostazal;15
+15-938;SUR Placilla;SUR;15;True;False;legacy NN-NNN;200853;15;Urgencia Ambulatoria (SUR);Baja Complejidad;Placilla;15
+15-939;SUR Coltauco;SUR;15;True;False;legacy NN-NNN;200854;15;Urgencia Ambulatoria (SUR);Baja Complejidad;Coltauco;15
+15-941;SUR Chépica;SUR;15;True;False;legacy NN-NNN;200855;15;Urgencia Ambulatoria (SUR);Baja Complejidad;Chepica;15
+15-948;SUR Navidad;SUR;15;True;False;legacy NN-NNN;200856;06;Urgencia Ambulatoria (SUR);Baja Complejidad;Navidad;6
+15-949;SUR Paredones;SUR;15;True;False;legacy NN-NNN;200857;15;Urgencia Ambulatoria (SUR);Baja Complejidad;Paredones;15
+15-950;SUR La Estrella;SUR;15;True;False;legacy NN-NNN;200858;15;Urgencia Ambulatoria (SUR);Baja Complejidad;La Estrella;15
+15-951;SUR Doñihue;SUR;15;True;False;legacy NN-NNN;200859;15;Urgencia Ambulatoria (SUR);Baja Complejidad;Doñihue;15
+15-952;SUR Codegua;SUR;15;True;False;legacy NN-NNN;200860;15;Urgencia Ambulatoria (SUR);Baja Complejidad;Codegua;15
+15-953;SUR Olivar;SUR;15;True;False;legacy NN-NNN;200861;15;Urgencia Ambulatoria (SUR);Baja Complejidad;Olivar;15
+15-954;SUR de Malloa;SUR;15;True;False;legacy NN-NNN;200862;15;Urgencia Ambulatoria (SUR);Baja Complejidad;Malloa;15
+15-955;SUR Requínoa;SUR;15;True;False;legacy NN-NNN;200863;15;Urgencia Ambulatoria (SUR);Baja Complejidad;Requínoa;15
+16-100;Hospital San Juan de Dios (Curicó);Hospital;16;True;False;legacy NN-NNN;116100;16;Urgencia Hospitalaria (UEH);Alta Complejidad;Curicó;16
+16-101;Hospital de Teno;Hospital;16;True;False;legacy NN-NNN;116101;16;Urgencia Hospitalaria (UEH);Baja Complejidad;Teno;16
+16-102;Hospital de Molina;Hospital;16;True;False;legacy NN-NNN;116102;16;Urgencia Hospitalaria (UEH);Baja Complejidad;Molina;16
+16-103;Hospital de Hualañé;Hospital;16;True;False;legacy NN-NNN;116103;16;Urgencia Hospitalaria (UEH);Baja Complejidad;Hualañé;16
+16-104;Hospital de Licantén;Hospital;16;True;False;legacy NN-NNN;116104;16;Urgencia Hospitalaria (UEH);Baja Complejidad;Licantén;16
+16-105;Hospital Dr. César Garavagno Burotto (Talca);Hospital;16;True;False;legacy NN-NNN;116105;16;Urgencia Hospitalaria (UEH);Alta Complejidad;Talca;16
+16-106;Hospital de Curepto;Hospital;16;True;False;legacy NN-NNN;116106;16;Urgencia Hospitalaria (UEH);Baja Complejidad;Curepto;16
+16-107;Hospital de Constitución;Hospital;16;True;False;legacy NN-NNN;116107;16;Urgencia Hospitalaria (UEH);Mediana Complejidad;Constitución;16
+16-108;Hospital Presidente Carlos Ibáñez del Campo (Linares);Hospital;16;True;False;legacy NN-NNN;116108;16;Urgencia Hospitalaria (UEH);Alta Complejidad;Linares;16
+16-109;Hospital Dr. Abel Fuentealba Lagos (San Javier);Hospital;16;True;False;legacy NN-NNN;116109;16;Urgencia Hospitalaria (UEH);Mediana Complejidad;San Javier;16
+16-110;Hospital San José (Parral);Hospital;16;True;False;legacy NN-NNN;116110;16;Urgencia Hospitalaria (UEH);Mediana Complejidad;Parral;16
+16-111;Hospital San Juan de Dios (Cauquenes);Hospital;16;True;False;legacy NN-NNN;116111;16;Urgencia Hospitalaria (UEH);Mediana Complejidad;Cauquenes;16
+16-112;Hospital Dr. Benjamín Pedreros (Chanco);Hospital;16;True;False;legacy NN-NNN;116112;16;Urgencia Hospitalaria (UEH);Baja Complejidad;Chanco;16
+16-801;SAR Aguas Negras;SAR;16;True;False;legacy NN-NNN;116801;16;Urgencia Ambulatoria (SAR);Baja Complejidad;Curicó;16
+16-802;SAR Bombero Garrido;SAR;16;True;False;legacy NN-NNN;116802;16;Urgencia Ambulatoria (SAR);Baja Complejidad;Curicó;16
+16-803;SAPU Curicó Centro;SAPU;16;True;False;legacy NN-NNN;116803;16;Urgencia Ambulatoria (SAPU);Baja Complejidad;Curicó;16
+16-805;SAPU José Dionisio Astaburuaga;SAPU;16;True;False;legacy NN-NNN;116805;16;Urgencia Ambulatoria (SAPU);Baja Complejidad;Talca;16
+16-806;SAR La Florida;SAR;16;True;False;legacy NN-NNN;116806;16;Urgencia Ambulatoria (SAR);Baja Complejidad;Talca;16
+16-807;SAPU Julio Contardo Urzúa;SAPU;16;True;False;legacy NN-NNN;116807;16;Urgencia Ambulatoria (SAPU);Baja Complejidad;Talca;16
+16-809;SAR San Juan de Dios de Linares;SAR;16;True;False;legacy NN-NNN;116809;16;Urgencia Ambulatoria (SAR);Baja Complejidad;Linares;16
+16-811;SAR Parral;SAR;16;True;False;legacy NN-NNN;116811;16;Urgencia Ambulatoria (SAR);Baja Complejidad;Parral;16
+16-813;SAR Luis Tobar Rojas;SAR;16;True;False;legacy NN-NNN;116813;16;Urgencia Ambulatoria (SAR);Baja Complejidad;San Clemente;16
+16-820;SAPU Amanda Benavente;SAPU;16;True;False;legacy NN-NNN;116820;16;Urgencia Ambulatoria (SAPU);Baja Complejidad;Longaví;16
+16-823;SAPU Oscar Bonilla;SAPU;16;True;False;legacy NN-NNN;116823;16;Urgencia Ambulatoria (SAPU);Baja Complejidad;Linares;16
+16-829;SAR Dr. Juan Saavedra Macaya;SAR;16;True;False;legacy NN-NNN;116829;16;Urgencia Ambulatoria (SAR);Baja Complejidad;Cauquenes;16
+16-831;SAR Carlos Trupp;SAR;16;True;False;legacy NN-NNN;116831;16;Urgencia Ambulatoria (SAR);Baja Complejidad;Talca;16
+16-832;SAR Constitución;SAR;16;True;False;legacy NN-NNN;116832;16;Urgencia Ambulatoria (SAR);Baja Complejidad;Constitución;16
+16-840;SAR Las Américas;SAR;16;True;False;legacy NN-NNN;116840;16;Urgencia Ambulatoria (SAR);Baja Complejidad;Talca;16
+16-900;SAPU Valentín Letelier;SAPU;16;True;False;legacy NN-NNN;200148;16;Urgencia Ambulatoria (SAPU);Baja Complejidad;Linares;16
+16-932;SAR Villa Alegre;SAR;16;True;False;legacy NN-NNN;200522;16;Urgencia Ambulatoria (SAR);Baja Complejidad;Villa Alegre;16
+16-944;SUR Los Niches;SUR;16;True;False;legacy NN-NNN;200757;16;Urgencia Ambulatoria (SUR);Baja Complejidad;Curicó;16
+16-945;SUR Sarmiento;SUR;16;True;False;legacy NN-NNN;200758;16;Urgencia Ambulatoria (SUR);Baja Complejidad;Curicó;16
+16-946;SUR Morza;SUR;16;True;False;legacy NN-NNN;200759;16;Urgencia Ambulatoria (SUR);Baja Complejidad;Teno;16
+16-947;SUR Lontue;SUR;16;True;False;legacy NN-NNN;200760;16;Urgencia Ambulatoria (SUR);Baja Complejidad;Molina;16
+16-948;SUR Iloca;SUR;16;True;False;legacy NN-NNN;200761;16;Urgencia Ambulatoria (SUR);Baja Complejidad;Licantén;16
+16-949;SUR Vichuquén;SUR;16;True;False;legacy NN-NNN;200762;16;Urgencia Ambulatoria (SUR);Baja Complejidad;Vichuquén;16
+16-950;SUR Rauco;SUR;16;True;False;legacy NN-NNN;200763;16;Urgencia Ambulatoria (SUR);Baja Complejidad;Rauco;16
+16-951;SUR Romeral;SUR;16;True;False;legacy NN-NNN;200764;16;Urgencia Ambulatoria (SUR);Baja Complejidad;Romeral;16
+16-952;SUR Sagrada Familia;SUR;16;True;False;legacy NN-NNN;200765;16;Urgencia Ambulatoria (SUR);Baja Complejidad;Sagrada Familia;16
+16-953;SUR Villa Prat;SUR;16;True;False;legacy NN-NNN;200766;16;Urgencia Ambulatoria (SUR);Baja Complejidad;Sagrada Familia;16
+16-954;SUR Mercedes;SUR;16;True;False;legacy NN-NNN;200767;16;Urgencia Ambulatoria (SUR);Baja Complejidad;Talca;16
+16-955;SUR Santa Olga;SUR;16;True;False;legacy NN-NNN;200768;16;Urgencia Ambulatoria (SUR);Baja Complejidad;Constitución;16
+16-956;SUR Putu;SUR;16;True;False;legacy NN-NNN;200769;16;Urgencia Ambulatoria (SUR);Baja Complejidad;Constitución;16
+16-957;SUR El Álamo;SUR;16;True;False;legacy NN-NNN;200770;16;Urgencia Ambulatoria (SUR);Baja Complejidad;San Clemente;16
+16-958;SUR El Colorado;SUR;16;True;False;legacy NN-NNN;200771;16;Urgencia Ambulatoria (SUR);Baja Complejidad;San Clemente;16
+16-959;SUR Río Claro;SUR;16;True;False;legacy NN-NNN;200772;16;Urgencia Ambulatoria (SUR);Baja Complejidad;Río Claro;16
+16-960;SUR Pelarco;SUR;16;True;False;legacy NN-NNN;200773;16;Urgencia Ambulatoria (SUR);Baja Complejidad;Pelarco;16
+16-961;SUR San Rafael;SUR;16;True;False;legacy NN-NNN;200774;16;Urgencia Ambulatoria (SUR);Baja Complejidad;San Rafael;16
+16-962;SUR Pencahue;SUR;16;True;False;legacy NN-NNN;200775;16;Urgencia Ambulatoria (SUR);Baja Complejidad;Pencahue;16
+16-963;SAPU Maule;SAPU;16;True;False;legacy NN-NNN;200776;16;Urgencia Ambulatoria (SAPU);Baja Complejidad;Maule;16
+16-964;SUR Empedrado;SUR;16;True;False;legacy NN-NNN;200777;16;Urgencia Ambulatoria (SUR);Baja Complejidad;Empedrado;16
+16-965;SUR Vara Gruesa;SUR;16;True;False;legacy NN-NNN;200778;16;Urgencia Ambulatoria (SUR);Baja Complejidad;Linares;16
+16-966;SUR Marta Estevez - Retiro;SUR;16;True;False;legacy NN-NNN;200779;16;Urgencia Ambulatoria (SUR);Baja Complejidad;Retiro;16
+16-967;SUR Yerbas Buenas;SUR;16;True;False;legacy NN-NNN;200780;16;Urgencia Ambulatoria (SUR);Baja Complejidad;Yerbas Buenas;16
+16-968;SUR El Aromo;SUR;16;True;False;legacy NN-NNN;200781;16;Urgencia Ambulatoria (SUR);Baja Complejidad;San Javier;16
+16-969;SUR Colbun;SUR;16;True;False;legacy NN-NNN;200782;16;Urgencia Ambulatoria (SUR);Baja Complejidad;Colbún;16
+16-970;SUR Panimavida;SUR;16;True;False;legacy NN-NNN;200783;16;Urgencia Ambulatoria (SUR);Baja Complejidad;Colbún;16
+16-971;SUR Curanipe;SUR;16;True;False;legacy NN-NNN;200784;16;Urgencia Ambulatoria (SUR);Baja Complejidad;Pelluhue;16
+17-101;Hospital Clínico  Herminda Martín (Chillán);Hospital;17;True;False;legacy NN-NNN;117101;17;Urgencia Hospitalaria (UEH);Alta Complejidad;Chillán;17
+17-102;Hospital de San Carlos;Hospital;17;True;False;legacy NN-NNN;117102;17;Urgencia Hospitalaria (UEH);Alta Complejidad;San Carlos;17
+17-103;Hospital Comunitario de Salud Familiar de Bulnes;Hospital;17;True;False;legacy NN-NNN;117103;17;Urgencia Hospitalaria (UEH);Baja Complejidad;Bulnes;17
+17-104;Hospital Comunitario de Salud Familiar Pedro Morales Campos (Yungay);Hospital;17;True;False;legacy NN-NNN;117104;17;Urgencia Hospitalaria (UEH);Baja Complejidad;Yungay;17
+17-106;Hospital Comunitario de Salud Familiar de Quirihue;Hospital;17;True;False;legacy NN-NNN;117106;17;Urgencia Hospitalaria (UEH);Baja Complejidad;Quirihue;17
+17-107;Hospital Comunitario de Salud Familiar de El Carmen;Hospital;17;True;False;legacy NN-NNN;117107;17;Urgencia Hospitalaria (UEH);Baja Complejidad;El Carmen;17
+17-108;Hospital Comunitario de Salud Familiar Dr. Eduardo Contreras Trabucco de Coelemu;Hospital;17;True;False;legacy NN-NNN;117108;17;Urgencia Hospitalaria (UEH);Baja Complejidad;Coelemu;17
+17-801;SAR Violeta Parra;SAR;17;True;False;legacy NN-NNN;117801;17;Urgencia Ambulatoria (SAR);Baja Complejidad;Chillán;17
+17-803;;SAPU;17;True;False;legacy NN-NNN;117803;17;Urgencia Ambulatoria (SAPU);Baja Complejidad;Chillán;17
+17-811;SAPU José Durán Trujillo;SAPU;17;True;False;legacy NN-NNN;117811;17;Urgencia Ambulatoria (SAPU);Baja Complejidad;San Carlos;17
+17-824;SAPU Los Volcanes;SAPU;17;True;False;legacy NN-NNN;117824;17;Urgencia Ambulatoria (SAPU);Baja Complejidad;Chillán;17
+17-828;SAPU Dr. Federico Puga;SAPU;17;True;False;legacy NN-NNN;117828;17;Urgencia Ambulatoria (SAPU);Baja Complejidad;Chillán Viejo;17
+17-900;SAPU Isabel Riquelme;SAPU;17;True;False;legacy NN-NNN;200149;17;Urgencia Ambulatoria (SAPU);Baja Complejidad;Chillán;17
+17-906;SAR Dra. Michelle Bachelet Jeria;SAR;17;True;False;legacy NN-NNN;200718;17;Urgencia Ambulatoria (SAR);Baja Complejidad;Chillán Viejo;17
+17-910;SUR Portezuelo;SUR;17;True;False;legacy NN-NNN;200827;17;Urgencia Ambulatoria (SUR);Baja Complejidad;Portezuelo;17
+17-911;SUR Quillón;SUR;17;True;False;legacy NN-NNN;200828;17;Urgencia Ambulatoria (SUR);Baja Complejidad;Quillón;17
+17-912;SUR Cobquecura;SUR;17;True;False;legacy NN-NNN;200829;17;Urgencia Ambulatoria (SUR);Baja Complejidad;Cobquecura;17
+17-913;SUR San Ignacio;SUR;17;True;False;legacy NN-NNN;200830;17;Urgencia Ambulatoria (SUR);Baja Complejidad;San Ignacio;17
+17-914;SUR San Fabián;SUR;17;True;False;legacy NN-NNN;200831;17;Urgencia Ambulatoria (SUR);Baja Complejidad;San Fabián;17
+17-915;SUR Pemuco;SUR;17;True;False;legacy NN-NNN;200832;17;Urgencia Ambulatoria (SUR);Baja Complejidad;Pemuco;17
+17-916;SUR San Nicolás;SUR;17;True;False;legacy NN-NNN;200833;17;Urgencia Ambulatoria (SUR);Baja Complejidad;San Nicolás;17
+17-917;SUR Ñiquén;SUR;17;True;False;legacy NN-NNN;200834;17;Urgencia Ambulatoria (SUR);Baja Complejidad;Ñiquén;17
+17-918;SUR Dr. David Benavente de Ninhue;SUR;17;True;False;legacy NN-NNN;200835;17;Urgencia Ambulatoria (SUR);Baja Complejidad;Ninhue;17
+17-919;SUR Ñipas;SUR;17;True;False;legacy NN-NNN;200836;17;Urgencia Ambulatoria (SUR);Baja Complejidad;Ránquil;17
+17-920;SUR Pinto;SUR;17;True;False;legacy NN-NNN;200837;17;Urgencia Ambulatoria (SUR);Baja Complejidad;Pinto;17
+17-921;;SUR;17;True;False;legacy NN-NNN;200838;17;Urgencia Ambulatoria (SAR);Baja Complejidad;Coihueco;17
+17-922;SUR Quiriquina;SUR;17;True;False;legacy NN-NNN;200839;17;Urgencia Ambulatoria (SUR);Baja Complejidad;San Ignacio;17
+17-924;SUR Treguaco;SUR;17;True;False;legacy NN-NNN;200841;17;Urgencia Ambulatoria (SUR);Baja Complejidad;Treguaco;17
+18-100;Hospital Clínico Regional Dr. Guillermo Grant Benavente (Concepción);Hospital;18;True;False;legacy NN-NNN;118100;18;Urgencia Hospitalaria (UEH);Alta Complejidad;Concepción;18
+18-809;SAPU Lorenzo Arenas;SAPU;18;True;False;legacy NN-NNN;118809;18;Urgencia Ambulatoria (SAPU);Baja Complejidad;Concepción;18
+19-801;SAR Hualpencillo;SAR;19;True;False;legacy NN-NNN;119801;19;Urgencia Ambulatoria (SAR);Baja Complejidad;Hualpén;19
+19-100;Hospital Las Higueras (Talcahuano);Hospital;19;True;False;legacy NN-NNN;119100;19;Urgencia Hospitalaria (UEH);Alta Complejidad;Talcahuano;19
+18-106;Hospital de Lota;Hospital;18;True;False;legacy NN-NNN;118106;18;Urgencia Hospitalaria (UEH);Alta Complejidad;Lota;18
+18-107;Hospital Clorinda Avello (Santa Juana);Hospital;18;True;False;legacy NN-NNN;118107;18;Urgencia Hospitalaria (UEH);Baja Complejidad;Santa Juana;18
+18-810;SAPU Juan Soto Fernández;SAPU;18;True;False;legacy NN-NNN;118810;18;Urgencia Ambulatoria (SAPU);Baja Complejidad;Concepción;18
+18-812;SAPU Lagunillas;SAPU;18;True;False;legacy NN-NNN;118812;18;Urgencia Ambulatoria (SAPU);Baja Complejidad;Coronel;18
+18-813;SAPU Yobilo;SAPU;18;True;False;legacy NN-NNN;118813;18;Urgencia Ambulatoria (SAPU);Baja Complejidad;Coronel;18
+18-814;SAPU Leonera;SAPU;18;True;False;legacy NN-NNN;118814;18;Urgencia Ambulatoria (SAPU);Baja Complejidad;Chiguayante;18
+18-817;SAPU Santa Sabina;SAPU;18;True;False;legacy NN-NNN;118817;18;Urgencia Ambulatoria (SAPU);Baja Complejidad;Concepción;18
+18-818;SAPU Loma Colorada;SAPU;18;True;False;legacy NN-NNN;118818;18;Urgencia Ambulatoria (SAPU);Baja Complejidad;San Pedro de la Paz;18
+18-826;SAPU Hualqui;SAPU;18;True;False;legacy NN-NNN;118826;18;Urgencia Ambulatoria (SAPU);Baja Complejidad;Hualqui;18
+18-902;SAR Víctor Manuel Fernández;SAR;18;True;False;legacy NN-NNN;200150;18;Urgencia Ambulatoria (SAR);Baja Complejidad;Concepción;18
+18-912;SAR Chiguayante;SAR;18;True;False;legacy NN-NNN;200580;18;Urgencia Ambulatoria (SAR);Baja Complejidad;Chiguayante;18
+18-913;SAR San Pedro;SAR;18;True;False;legacy NN-NNN;200581;18;Urgencia Ambulatoria (SAR);Baja Complejidad;San Pedro de la Paz;18
+18-924;SAR Boca Sur;SAR;18;True;False;legacy NN-NNN;200920;18;Urgencia Ambulatoria (SAR);Baja Complejidad;San Pedro de la Paz;18
+18-977;SAR Dr. Juan Cartes Arias;SAR;18;True;False;legacy NN-NNN;200077;18;Urgencia Ambulatoria (SAR);Baja Complejidad;Lota;18
+19-802;SAR San Vicente;SAR;19;True;False;legacy NN-NNN;119802;19;Urgencia Ambulatoria (SAR);Baja Complejidad;Talcahuano;19
+21-115;Hospital Familiar y Comunitario Carahue;Hospital;21;True;False;legacy NN-NNN;121115;21;Urgencia Hospitalaria (UEH);Baja Complejidad;Carahue;21
+21-111;Hospital de Galvarino;Hospital;21;True;False;legacy NN-NNN;121111;21;Urgencia Hospitalaria (UEH);Baja Complejidad;Galvarino;21
+19-101;Hospital de Tomé;Hospital;19;True;False;legacy NN-NNN;119101;19;Urgencia Hospitalaria (UEH);Alta Complejidad;Tome;19
+19-102;Hospital Penco - Lirquén;Hospital;19;True;False;legacy NN-NNN;119102;19;Urgencia Hospitalaria (UEH);Mediana Complejidad;Penco;19
+19-803;SAPU Paulina Avendaño Pereda;SAPU;19;True;False;legacy NN-NNN;119803;19;Urgencia Ambulatoria (SAPU);Baja Complejidad;Talcahuano;19
+19-804;SAR Penco;SAR;19;True;False;legacy NN-NNN;119804;19;Urgencia Ambulatoria (SAR);Baja Complejidad;Penco;19
+19-805;SAR Dr. Alberto Reyes;SAR;19;True;False;legacy NN-NNN;119805;19;Urgencia Ambulatoria (SAR);Baja Complejidad;Tome;19
+19-807;SAPU Alcalde Leocán Portus;SAPU;19;True;False;legacy NN-NNN;119807;19;Urgencia Ambulatoria (SAPU);Baja Complejidad;Talcahuano;19
+19-809;SAPU Talcahuano Sur;SAPU;19;True;False;legacy NN-NNN;119809;19;Urgencia Ambulatoria (SAPU);Baja Complejidad;Hualpén;19
+19-900;SAPU Bellavista;SAPU;19;True;False;legacy NN-NNN;200151;19;Urgencia Ambulatoria (SAPU);Baja Complejidad;Tome;19
+19-911;SUR Dichato;SUR;19;True;False;legacy NN-NNN;200957;19;Urgencia Ambulatoria (SUR);Baja Complejidad;Tome;19
+19-986;SAPU La Floresta;SAPU;19;True;False;legacy NN-NNN;200086;19;Urgencia Ambulatoria (SAPU);Baja Complejidad;Hualpén;19
+20-101;Complejo Asistencial  Dr. Víctor Ríos Ruiz (Los Angeles);Hospital;20;True;False;legacy NN-NNN;120101;20;Urgencia Hospitalaria (UEH);Alta Complejidad;Los Ángeles;20
+201018;SAR Los Cerros;SAR;19;False;True;modern 6-digit;201018;19;Urgencia Ambulatoria (SAR);Baja Complejidad;Talcahuano;19
+20-102;Hospital de Mulchén;Hospital;20;True;False;legacy NN-NNN;120102;20;Urgencia Hospitalaria (UEH);Baja Complejidad;Mulchén;20
+20-103;Hospital de Nacimiento;Hospital;20;True;False;legacy NN-NNN;120103;20;Urgencia Hospitalaria (UEH);Baja Complejidad;Nacimiento;20
+201038;SUR Calle Larga;SUR;8;False;True;modern 6-digit;201038;08;Urgencia Ambulatoria (SUR);Baja Complejidad;Calle Larga;8
+20-104;Hospital de Yumbel;Hospital;20;True;False;legacy NN-NNN;120104;20;Urgencia Hospitalaria (UEH);Baja Complejidad;Yumbel;20
+201043;SUR La Huerta de Hualañé;SUR;16;False;True;modern 6-digit;201043;16;Urgencia Ambulatoria (SUR);Baja Complejidad;Hualañé;16
+20-105;Hospital de Laja;Hospital;20;True;False;legacy NN-NNN;120105;20;Urgencia Hospitalaria (UEH);Baja Complejidad;Laja;20
+20-106;Hospital de Santa Bárbara;Hospital;20;True;False;legacy NN-NNN;120106;20;Urgencia Hospitalaria (UEH);Baja Complejidad;Santa Bárbara;20
+201063;SAPU DR. AGUSTIN CRUZ MELO;SAPU;9;False;True;modern 6-digit;201063;09;Urgencia Ambulatoria (SAPU);Baja Complejidad;Independencia;9
+201067;SAR Ancud;SAR;33;False;True;modern 6-digit;201067;33;Urgencia Ambulatoria (SAR);Baja Complejidad;Ancud;33
+201069;SAPU Carlos Ibañez;SAPU;26;False;True;modern 6-digit;201069;26;Urgencia Ambulatoria (SAPU);Baja Complejidad;Punta Arenas;26
+20-107;Hospital Dr. Roberto Muñoz Urrutia de Huépil;Hospital;20;True;False;legacy NN-NNN;120107;20;Urgencia Hospitalaria (UEH);Baja Complejidad;Tucapel;20
+201070;SAR Quillota;SAR;7;False;True;modern 6-digit;201070;07;Urgencia Ambulatoria (SAR);Baja Complejidad;Quillota;7
+201078;SAPU Cesfam O'Higgins;SAPU;18;False;True;modern 6-digit;201078;18;Urgencia Ambulatoria (SAPU);Baja Complejidad;Concepción;18
+201079;SAPU Dr. Juan Lozic Perez;SAPU;26;False;True;modern 6-digit;201079;26;Urgencia Ambulatoria (SAPU);Baja Complejidad;Natales;26
+201085;SAPU Aviador Acevedo;SAPU;7;False;True;modern 6-digit;201085;07;Urgencia Ambulatoria (SAPU);Baja Complejidad;Quilpué;7
+201140;SAR Carlos Pinto Fierro;SAR;18;False;True;modern 6-digit;201140;18;Urgencia Ambulatoria (SAR);Baja Complejidad;Coronel;18
+201145;SAPU Maitencillo;SAPU;7;False;True;modern 6-digit;201145;07;Urgencia Ambulatoria (SAPU);Baja Complejidad;Puchuncaví;7
+201147;SAPU Dr. Héctor Reyno Gutiérrez;SAPU;2;False;True;modern 6-digit;201147;02;Urgencia Ambulatoria (SAPU);Baja Complejidad;Alto Hospicio;2
+201161;SAPU Coñaripe;SAPU;22;False;True;modern 6-digit;201161;22;Urgencia Ambulatoria (SAPU);Baja Complejidad;Panguipulli;22
+201169;SUR Catemu;SUR;8;False;True;modern 6-digit;201169;08;Urgencia Ambulatoria (SUR);Baja Complejidad;Catemu;8
+201177;SUR Pan de Azúcar;SUR;5;False;True;modern 6-digit;201177;05;Urgencia Ambulatoria (SUR);Baja Complejidad;Coquimbo;5
+201178;SUR Tongoy;SUR;5;False;True;modern 6-digit;201178;05;Urgencia Ambulatoria (SUR);Baja Complejidad;Coquimbo;5
+201180;SUR El Palqui;SUR;5;False;True;modern 6-digit;201180;05;Urgencia Ambulatoria (SUR);Baja Complejidad;Monte Patria;5
+201187;SUR Tucapel;SUR;20;False;True;modern 6-digit;201187;20;Urgencia Ambulatoria (SUR);Baja Complejidad;Tucapel;20
+201194;SUR Gultro;SUR;15;False;True;modern 6-digit;201194;15;Urgencia Ambulatoria (SUR);Baja Complejidad;Olivar;15
+201215;SUR Dr. Jorge Ahumada Lemus;SUR;8;False;True;modern 6-digit;201215;08;Urgencia Ambulatoria (SUR);Baja Complejidad;Santa Maria;8
+201274;SAR Cajón;SAR;21;False;True;modern 6-digit;201274;21;Urgencia Ambulatoria (SAR);Baja Complejidad;Vilcún;21
+201319;Hospital de Alto Hospicio;Hospital;2;False;True;modern 6-digit;201319;02;Urgencia Hospitalaria (UEH);Mediana Complejidad;Alto Hospicio;2
+201359;SUR Lebu Norte;SUR;28;False;True;modern 6-digit;201359;28;Urgencia Ambulatoria (SUR);Baja Complejidad;Lebu;28
+201438;SUR Irene Frei Montalva;SUR;10;False;True;modern 6-digit;201438;10;Urgencia Ambulatoria (SUR);Baja Complejidad;Pudahuel;10
+201449;SAPU de Verano Mehuin;SAPU;22;False;True;modern 6-digit;201449;22;Urgencia Ambulatoria (SAPU);Baja Complejidad;Mariquina;22
+201562;SUR La Tirana;SUR;2;False;True;modern 6-digit;201562;02;Urgencia Ambulatoria (SUR);Baja Complejidad;Pozo Almonte;2
+201574;SAPU Rodelillo;SAPU;6;False;True;modern 6-digit;201574;06;Urgencia Ambulatoria (SAPU);Baja Complejidad;Valparaíso;6
+201632;SAR Michelle Bachelet;SAR;11;False;True;modern 6-digit;201632;11;Urgencia Ambulatoria (SAR);Baja Complejidad;Maipú;11
+201707;SAR Ultraestación;SAR;17;False;True;modern 6-digit;201707;17;Urgencia Ambulatoria (SAR);Baja Complejidad;Chillán;17
+201712;SAR ELSA ROMO ARAVENA;SAR;10;False;True;modern 6-digit;201712;10;Urgencia Ambulatoria (SAR);Baja Complejidad;Melipilla;10
+20-805;SAR Cabrero;SAR;20;True;False;legacy NN-NNN;120805;20;Urgencia Ambulatoria (SAR);Baja Complejidad;Cabrero;20
+20-811;SAPU Paillihue;SAPU;20;True;False;legacy NN-NNN;120811;20;Urgencia Ambulatoria (SAPU);Baja Complejidad;Los Ángeles;20
+20-815;SAR Norte;SAR;20;True;False;legacy NN-NNN;120815;20;Urgencia Ambulatoria (SAR);Baja Complejidad;Los Ángeles;20
+20-900;SAPU 2 Septiembre;SAPU;20;True;False;legacy NN-NNN;200177;20;Urgencia Ambulatoria (SAPU);Baja Complejidad;Los Ángeles;20
+20-901;SAPU Nororiente;SAPU;20;True;False;legacy NN-NNN;200178;20;Urgencia Ambulatoria (SAPU);Baja Complejidad;Los Ángeles;20
+20-902;SAPU Nuevo Horizonte;SAPU;20;True;False;legacy NN-NNN;200179;20;Urgencia Ambulatoria (SAPU);Baja Complejidad;Los Ángeles;20
+20-909;SAR Entre Ríos;SAR;20;True;False;legacy NN-NNN;200495;20;Urgencia Ambulatoria (SAR);Baja Complejidad;Los Ángeles;20
+20-916;SUR Santa Fe;SUR;20;True;False;legacy NN-NNN;200972;20;Urgencia Ambulatoria (SUR);Baja Complejidad;Los Ángeles;20
+20-917;SUR Antuco;SUR;20;True;False;legacy NN-NNN;200973;20;Urgencia Ambulatoria (SUR);Baja Complejidad;Antuco;20
+20-918;SUR Monteaguila;SUR;20;True;False;legacy NN-NNN;200974;20;Urgencia Ambulatoria (SUR);Baja Complejidad;Cabrero;20
+20-920;SUR Negrete;SUR;20;True;False;legacy NN-NNN;200976;20;Urgencia Ambulatoria (SUR);Baja Complejidad;Negrete;20
+20-921;SUR San Rosendo;SUR;20;True;False;legacy NN-NNN;200977;20;Urgencia Ambulatoria (SUR);Baja Complejidad;San Rosendo;20
+20-922;SUR Ralco;SUR;20;True;False;legacy NN-NNN;200978;20;Urgencia Ambulatoria (SUR);Baja Complejidad;Alto Biobío;20
+21-109;Hospital Dr. Hernán Henríquez Aravena (Temuco);Hospital;21;True;False;legacy NN-NNN;121109;21;Urgencia Hospitalaria (UEH);Alta Complejidad;Temuco;21
+21-110;Hospital Dr. Abraham Godoy Peña de Lautaro;Hospital;21;True;False;legacy NN-NNN;121110;21;Urgencia Hospitalaria (UEH);Mediana Complejidad;Lautaro;21
+21-119;Hospital de Gorbea;Hospital;21;True;False;legacy NN-NNN;121119;21;Urgencia Hospitalaria (UEH);Baja Complejidad;Gorbea;21
+21-200;Hospital San Francisco de Pucón (D);Hospital;21;True;False;legacy NN-NNN;121200;21;Urgencia Hospitalaria (UEH);Baja Complejidad;Pucón;21
+21-201;Hospital Makewe;Hospital;21;True;False;legacy NN-NNN;121201;21;Urgencia Hospitalaria (UEH);Baja Complejidad;Padre Las Casas;21
+21-803;SAR Miraflores;SAR;21;True;False;legacy NN-NNN;121803;21;Urgencia Ambulatoria (SAR);Baja Complejidad;Temuco;21
+21-121;Hospital de Villarrica;Hospital;21;True;False;legacy NN-NNN;121121;21;Urgencia Hospitalaria (UEH);Mediana Complejidad;Villarrica;21
+24-110;Hospital de Llanquihue;Hospital;24;True;False;legacy NN-NNN;124110;24;Urgencia Hospitalaria (UEH);Baja Complejidad;Llanquihue;24
+21-112;Hospital de Vilcún;Hospital;21;True;False;legacy NN-NNN;121112;21;Urgencia Hospitalaria (UEH);Baja Complejidad;Vilcún;21
+21-113;Hospital Dr. Eduardo González Galeno (Cunco);Hospital;21;True;False;legacy NN-NNN;121113;21;Urgencia Hospitalaria (UEH);Baja Complejidad;Cunco;21
+21-114;Hospital de Intercultura (Nueva Imperial);Hospital;21;True;False;legacy NN-NNN;121114;21;Urgencia Hospitalaria (UEH);Mediana Complejidad;Nueva Imperial;21
+21-116;Hospital Dr. Arturo Hillerns Larrañaga (Saavedra);Hospital;21;True;False;legacy NN-NNN;121116;21;Urgencia Hospitalaria (UEH);Baja Complejidad;Saavedra;21
+24-380;Centro de Salud Familiar Río Negro Hornopirén;SAPU;24;True;False;legacy NN-NNN;124380;24;No Aplica;Baja Complejidad;Hualaihué;24
+21-117;Hospital de Pitrufquén;Hospital;21;True;False;legacy NN-NNN;121117;21;Urgencia Hospitalaria (UEH);Mediana Complejidad;Pitrufquén;21
+21-118;Hospital de Toltén;Hospital;21;True;False;legacy NN-NNN;121118;21;Urgencia Hospitalaria (UEH);Baja Complejidad;Toltén;21
+21-120;Hospital de Loncoche;Hospital;21;True;False;legacy NN-NNN;121120;21;Urgencia Hospitalaria (UEH);Baja Complejidad;Loncoche;21
+21-806;SAPU Santa Rosa;SAPU;21;True;False;legacy NN-NNN;121806;21;Urgencia Ambulatoria (SAPU);Baja Complejidad;Temuco;21
+21-808;SAPU Padre Las Casas;SAPU;21;True;False;legacy NN-NNN;121808;21;Urgencia Ambulatoria (SAPU);Baja Complejidad;Padre Las Casas;21
+21-900;SAPU Amanecer;SAPU;21;True;False;legacy NN-NNN;200152;21;Urgencia Ambulatoria (SAPU);Baja Complejidad;Temuco;21
+21-902;SAPU Pueblo Nuevo;SAPU;21;True;False;legacy NN-NNN;200154;21;Urgencia Ambulatoria (SAPU);Baja Complejidad;Temuco;21
+21-903;SAPU Freire;SAPU;21;True;False;legacy NN-NNN;200155;21;Urgencia Ambulatoria (SAPU);Baja Complejidad;Freire;21
+21-904;SAR Labranza;SAR;21;True;False;legacy NN-NNN;200156;21;Urgencia Ambulatoria (SAR);Baja Complejidad;Temuco;21
+21-905;SAR Los Volcanes;SAR;21;True;False;legacy NN-NNN;200157;21;Urgencia Ambulatoria (SAR);Baja Complejidad;Villarrica;21
+21-907;SAR Pedro de Valdivia;SAR;21;True;False;legacy NN-NNN;200159;21;Urgencia Ambulatoria (SAR);Baja Complejidad;Temuco;21
+21-909;SAPU Villa Alegre;SAPU;21;True;False;legacy NN-NNN;200161;21;Urgencia Ambulatoria (SAPU);Baja Complejidad;Temuco;21
+21-910;SAPU Villarica;SAPU;21;True;False;legacy NN-NNN;200162;21;Urgencia Ambulatoria (SAPU);Baja Complejidad;Villarrica;21
+21-920;SAR Lautaro;SAR;21;True;False;legacy NN-NNN;200459;21;Urgencia Ambulatoria (SAR);Baja Complejidad;Lautaro;21
+21-932;Complejo Asistencial Padre las Casas;Hospital;21;True;False;legacy NN-NNN;200717;21;Urgencia Hospitalaria (UEH);Mediana Complejidad;Padre Las Casas;21
+21-933;SAR Conun Huenu;SAR;21;True;False;legacy NN-NNN;200924;21;Urgencia Ambulatoria (SAR);Baja Complejidad;Padre Las Casas;21
+21-934;SUR Curarrehue;SUR;21;True;False;legacy NN-NNN;200929;21;Urgencia Ambulatoria (SUR);Baja Complejidad;Curarrehue;21
+21-946;SAPU Pitrufquén;SAPU;21;True;False;legacy NN-NNN;200970;21;Urgencia Ambulatoria (SAPU);Baja Complejidad;Pitrufquén;21
+22-100;Hospital Base Valdivia;Hospital;22;True;False;legacy NN-NNN;122100;22;Urgencia Hospitalaria (UEH);Alta Complejidad;Valdivia;22
+22-101;Hospital de Corral;Hospital;22;True;False;legacy NN-NNN;122101;22;Urgencia Hospitalaria (UEH);Baja Complejidad;Corral;22
+22-102;Hospital de Los Lagos;Hospital;22;True;False;legacy NN-NNN;122102;22;Urgencia Hospitalaria (UEH);Baja Complejidad;Los Lagos;22
+22-103;Hospital de Lanco;Hospital;22;True;False;legacy NN-NNN;122103;22;Urgencia Hospitalaria (UEH);Baja Complejidad;Lanco;22
+22-104;Hospital Juan Morey (La Unión);Hospital;22;True;False;legacy NN-NNN;122104;22;Urgencia Hospitalaria (UEH);Mediana Complejidad;La Unión;22
+22-105;Hospital de Río Bueno;Hospital;22;True;False;legacy NN-NNN;122105;22;Urgencia Hospitalaria (UEH);Baja Complejidad;Río Bueno;22
+22-106;Hospital de Paillaco;Hospital;22;True;False;legacy NN-NNN;122106;22;Urgencia Hospitalaria (UEH);Baja Complejidad;Paillaco;22
+22-200;Hospital Santa Elisa de San José de la Mariquina;Hospital;22;True;False;legacy NN-NNN;122200;22;Urgencia Hospitalaria (UEH);Baja Complejidad;Mariquina;22
+22-201;Hospital de Panguipulli;Hospital;22;True;False;legacy NN-NNN;122201;22;Urgencia Hospitalaria (UEH);Baja Complejidad;Panguipulli;22
+22-801;SAPU Las Ánimas;SAPU;22;True;False;legacy NN-NNN;122801;22;Urgencia Ambulatoria (SAPU);Baja Complejidad;Valdivia;22
+22-802;SAPU Gil de Castro;SAPU;22;True;False;legacy NN-NNN;122802;22;Urgencia Ambulatoria (SAPU);Baja Complejidad;Valdivia;22
+22-810;SAR La Unión;SAR;22;True;False;legacy NN-NNN;122810;22;Urgencia Ambulatoria (SAR);Baja Complejidad;La Unión;22
+22-812;SAPU Río Bueno;SAPU;22;True;False;legacy NN-NNN;122812;22;Urgencia Ambulatoria (SAPU);Baja Complejidad;Río Bueno;22
+22-814;SAPU Angachilla;SAPU;22;True;False;legacy NN-NNN;122814;22;Urgencia Ambulatoria (SAPU);Baja Complejidad;Valdivia;22
+22-900;SAPU Belarmina Paredes;SAPU;22;True;False;legacy NN-NNN;200163;22;Urgencia Ambulatoria (SAPU);Baja Complejidad;Futrono;22
+22-901;SAPU Ranco;SAPU;22;True;False;legacy NN-NNN;200164;22;Urgencia Ambulatoria (SAPU);Baja Complejidad;Lago Ranco;22
+22-902;SAPU Niebla;SAPU;22;True;False;legacy NN-NNN;200165;22;Urgencia Ambulatoria (SAPU);Baja Complejidad;Valdivia;22
+22-903;SAR Panguipulli;SAR;22;True;False;legacy NN-NNN;200166;22;Urgencia Ambulatoria (SAR);Baja Complejidad;Panguipulli;22
+22-908;SAR Barrios Bajos;SAR;22;True;False;legacy NN-NNN;200458;22;Urgencia Ambulatoria (SAR);Baja Complejidad;Valdivia;22
+22-919;SUR Mariquina;SUR;22;True;False;legacy NN-NNN;200785;22;Urgencia Ambulatoria (SUR);Baja Complejidad;Mariquina;22
+22-920;SUR Máfil;SUR;22;True;False;legacy NN-NNN;200786;22;Urgencia Ambulatoria (SUR);Baja Complejidad;Máfil;22
+22-921;SUR Coñaripe;SUR;22;True;False;legacy NN-NNN;200787;22;Urgencia Ambulatoria (SUR);Baja Complejidad;Panguipulli;22
+22-922;SAPU Malalhue;SAPU;22;True;False;legacy NN-NNN;200788;22;Urgencia Ambulatoria (SAPU);Baja Complejidad;Lanco;22
+22-923;SUR Choshuenco;SUR;22;True;False;legacy NN-NNN;200825;22;Urgencia Ambulatoria (SUR);Baja Complejidad;Panguipulli;22
+22-924;SUR Neltume;SUR;22;True;False;legacy NN-NNN;200826;22;Urgencia Ambulatoria (SUR);Baja Complejidad;Panguipulli;22
+22-925;SAPU Paillaco;SAPU;22;True;False;legacy NN-NNN;200882;22;Urgencia Ambulatoria (SAPU);Baja Complejidad;Paillaco;22
+23-100;Hospital Base de Osorno;Hospital;23;True;False;legacy NN-NNN;123100;23;Urgencia Hospitalaria (UEH);Alta Complejidad;Osorno;23
+23-101;Hospital de Purranque Dr. Juan Hepp Dubiau;Hospital;23;True;False;legacy NN-NNN;123101;23;Urgencia Hospitalaria (UEH);Mediana Complejidad;Purranque;23
+23-102;Hospital de Río Negro;Hospital;23;True;False;legacy NN-NNN;123102;23;Urgencia Hospitalaria (UEH);Baja Complejidad;Río Negro;23
+23-103;Hospital de Puerto Octay;Hospital;23;True;False;legacy NN-NNN;123103;23;Urgencia Hospitalaria (UEH);Baja Complejidad;Puerto Octay;23
+23-104;Hospital Futa Sruka Lawenche Kunko Mapu Mo;Hospital;23;True;False;legacy NN-NNN;123104;23;Urgencia Hospitalaria (UEH);Baja Complejidad;San Juan de la Costa;23
+23-105;Hospital Pu Mulen Quilacahuín;Hospital;23;True;False;legacy NN-NNN;123105;23;Urgencia Hospitalaria (UEH);Baja Complejidad;San Pablo;23
+23-800;SAPU Dr. Pedro Jáuregui;SAPU;23;True;False;legacy NN-NNN;123800;23;Urgencia Ambulatoria (SAPU);Baja Complejidad;Osorno;23
+23-801;SAPU Rahue Alto;SAPU;23;True;False;legacy NN-NNN;123801;23;Urgencia Ambulatoria (SAPU);Baja Complejidad;Osorno;23
+23-910;SAPU Entre Lagos;SAPU;23;True;False;legacy NN-NNN;200747;23;Urgencia Ambulatoria (SAPU);Baja Complejidad;Puyehue;23
+23-911;SUR San Pablo;SUR;23;True;False;legacy NN-NNN;200748;23;Urgencia Ambulatoria (SUR);Baja Complejidad;San Pablo;23
+23-912;SUR Bahía Mansa;SUR;23;True;False;legacy NN-NNN;200749;23;Urgencia Ambulatoria (SUR);Baja Complejidad;San Juan de la Costa;23
+23-913;SUR Puaucho;SUR;23;True;False;legacy NN-NNN;200750;23;Urgencia Ambulatoria (SUR);Baja Complejidad;San Juan de la Costa;23
+23-985;SAPU Dr. Marcelo Lopetegui Adams;SAPU;23;True;False;legacy NN-NNN;200085;23;Urgencia Ambulatoria (SAPU);Baja Complejidad;Osorno;23
+24-105;Hospital de Puerto Montt;Hospital;24;True;False;legacy NN-NNN;124105;24;Urgencia Hospitalaria (UEH);Alta Complejidad;Puerto Montt;24
+24-806;SAPU Antonio Varas;SAPU;24;True;False;legacy NN-NNN;124806;24;Urgencia Ambulatoria (SAPU);Baja Complejidad;Puerto Montt;24
+33-900;SAR Castro;SAR;33;True;False;legacy NN-NNN;200176;33;Urgencia Ambulatoria (SAR);Baja Complejidad;Castro;33
+33-155;Hospital de Ancud;Hospital;33;True;False;legacy NN-NNN;133155;33;Urgencia Hospitalaria (UEH);Mediana Complejidad;Ancud;33
+24-115;Hospital de Frutillar;Hospital;24;True;False;legacy NN-NNN;124115;24;Urgencia Hospitalaria (UEH);Baja Complejidad;Frutillar;24
+24-120;Hospital de Fresia;Hospital;24;True;False;legacy NN-NNN;124120;24;Urgencia Hospitalaria (UEH);Baja Complejidad;Fresia;24
+24-805;SAPU Angelmó;SAPU;24;True;False;legacy NN-NNN;124805;24;Urgencia Ambulatoria (SAPU);Baja Complejidad;Puerto Montt;24
+24-125;Hospital de Maullín;Hospital;24;True;False;legacy NN-NNN;124125;24;Urgencia Hospitalaria (UEH);Baja Complejidad;Maullín;24
+24-130;Hospital de Calbuco;Hospital;24;True;False;legacy NN-NNN;124130;24;Urgencia Hospitalaria (UEH);Baja Complejidad;Calbuco;24
+24-140;Hospital de Palena;Hospital;24;True;False;legacy NN-NNN;124140;24;Urgencia Hospitalaria (UEH);Baja Complejidad;Palena;24
+24-145;Hospital de Futaleufú;Hospital;24;True;False;legacy NN-NNN;124145;24;Urgencia Hospitalaria (UEH);Baja Complejidad;Futaleufú;24
+24-810;SAR Puerto Varas;SAR;24;True;False;legacy NN-NNN;124810;24;Urgencia Ambulatoria (SAR);Baja Complejidad;Puerto Varas;24
+24-881;SAPU Padre Hurtado;SAPU;24;True;False;legacy NN-NNN;124881;24;Urgencia Ambulatoria (SAPU);Baja Complejidad;Puerto Montt;24
+24-895;SAR Alerce;SAR;24;True;False;legacy NN-NNN;124895;24;Urgencia Ambulatoria (SAR);Baja Complejidad;Puerto Montt;24
+24-900;SAPU Carmela Carvajal;SAPU;24;True;False;legacy NN-NNN;200167;24;Urgencia Ambulatoria (SAPU);Baja Complejidad;Puerto Montt;24
+24-901;SAPU Frutillar;SAPU;24;True;False;legacy NN-NNN;200168;24;Urgencia Ambulatoria (SAPU);Baja Complejidad;Frutillar;24
+24-902;SAPU Los Muermos;SAPU;24;True;False;legacy NN-NNN;200169;24;Urgencia Ambulatoria (SAPU);Baja Complejidad;Los Muermos;24
+24-976;Hospital de Chaitén;Hospital;24;True;False;legacy NN-NNN;200076;24;;Baja Complejidad;Chaitén;24
+25-100;Hospital Regional (Coihaique);Hospital;25;True;False;legacy NN-NNN;125100;25;Urgencia Hospitalaria (UEH);Alta Complejidad;Coyhaique;25
+25-101;Hospital de Puerto Aisén;Hospital;25;True;False;legacy NN-NNN;125101;25;Urgencia Hospitalaria (UEH);Mediana Complejidad;Aisén;25
+25-102;Hospital Dr. Leopoldo Ortega R. (Chile Chico);Hospital;25;True;False;legacy NN-NNN;125102;25;Urgencia Hospitalaria (UEH);Baja Complejidad;Chile Chico;25
+25-103;Hospital Lord Cochrane;Hospital;25;True;False;legacy NN-NNN;125103;25;Urgencia Hospitalaria (UEH);Baja Complejidad;Cochrane;25
+25-104;Hospital Dr. Jorge Ibar (Cisnes);Hospital;25;True;False;legacy NN-NNN;125104;25;Urgencia Hospitalaria (UEH);Baja Complejidad;Cisnes;25
+25-900;SAPU Dr. Alejandro Gutiérrez;SAPU;25;True;False;legacy NN-NNN;200170;25;Urgencia Ambulatoria (SAPU);Baja Complejidad;Coyhaique;25
+26-100;Hospital Dr. Lautaro Navarro Avaria (Punta Arenas);Hospital;26;True;False;legacy NN-NNN;126100;26;Urgencia Hospitalaria (UEH);Alta Complejidad;Punta Arenas;26
+26-101;Hospital Dr. Augusto Essmann Burgos ( Natales);Hospital;26;True;False;legacy NN-NNN;126101;26;Urgencia Hospitalaria (UEH);Mediana Complejidad;Natales;26
+26-102;Hospital Dr. Marco Antonio Chamorro ( Porvenir);Hospital;26;True;False;legacy NN-NNN;126102;26;Urgencia Hospitalaria (UEH);Baja Complejidad;Porvenir;26
+26-704;Hospital Comunitario Cristina Calderón de Puerto Williams;Hospital;26;True;False;legacy NN-NNN;126704;26;Urgencia Hospitalaria (UEH);Baja Complejidad;Cabo de Hornos;26
+26-800;SAPU Dr. Mateo Bencur;SAPU;26;True;False;legacy NN-NNN;126800;26;Urgencia Ambulatoria (SAPU);Baja Complejidad;Punta Arenas;26
+26-801;SAR Dr. Juan Damianovic;SAR;26;True;False;legacy NN-NNN;126801;26;Urgencia Ambulatoria (SAR);Baja Complejidad;Punta Arenas;26
+26-900;SAPU 18 de Septiembre;SAPU;26;True;False;legacy NN-NNN;200171;26;Urgencia Ambulatoria (SAPU);Baja Complejidad;Punta Arenas;26
+28-109;Hospital Provincial  Dr. Rafael Avaría (Curanilahue);Hospital;28;True;False;legacy NN-NNN;128109;28;Urgencia Hospitalaria (UEH);Mediana Complejidad;Curanilahue;28
+28-110;Hospital de Lebu;Hospital;28;True;False;legacy NN-NNN;128110;28;Urgencia Hospitalaria (UEH);Baja Complejidad;Lebu;28
+28-111;Hospital Dr. Ricardo Figueroa González (Cañete);Hospital;28;True;False;legacy NN-NNN;128111;28;Urgencia Hospitalaria (UEH);Baja Complejidad;Cañete;28
+28-112;Hospital de Contulmo;Hospital;28;True;False;legacy NN-NNN;128112;28;Urgencia Hospitalaria (UEH);Baja Complejidad;Contulmo;28
+28-113;Hospital San Vicente (Arauco);Hospital;28;True;False;legacy NN-NNN;128113;28;Urgencia Hospitalaria (UEH);Baja Complejidad;Arauco;28
+28-900;SAPU Eleuterio Ramírez;SAPU;28;True;False;legacy NN-NNN;200172;28;Urgencia Ambulatoria (SAPU);Baja Complejidad;Curanilahue;28
+28-901;SAR Los Álamos;SAR;28;True;False;legacy NN-NNN;200173;28;Urgencia Ambulatoria (SAR);Baja Complejidad;Los Álamos;28
+28-903;SAR Tirúa;SAR;28;True;False;legacy NN-NNN;200745;28;Urgencia Ambulatoria (SAR);Baja Complejidad;Tirúa;28
+28-904;SUR Laraquete;SUR;28;True;False;legacy NN-NNN;200746;28;Urgencia Ambulatoria (SUR);Baja Complejidad;Arauco;28
+28-906;SUR Carampangue;SUR;28;True;False;legacy NN-NNN;200823;28;Urgencia Ambulatoria (SUR);Baja Complejidad;Arauco;28
+28-907;SUR Tubul;SUR;28;True;False;legacy NN-NNN;200824;28;Urgencia Ambulatoria (SUR);Baja Complejidad;Arauco;28
+29-100;Hospital Dr. Mauricio Heyermann (Angol);Hospital;29;True;False;legacy NN-NNN;129100;29;Urgencia Hospitalaria (UEH);Alta Complejidad;Angol;29
+29-101;Hospital de Purén;Hospital;29;True;False;legacy NN-NNN;129101;29;Urgencia Hospitalaria (UEH);Baja Complejidad;Purén;29
+29-103;Hospital de Collipulli;Hospital;29;True;False;legacy NN-NNN;129103;29;Urgencia Hospitalaria (UEH);Baja Complejidad;Collipulli;29
+29-104;Hospital Dr. Dino Stagno M.(Traiguén);Hospital;29;True;False;legacy NN-NNN;129104;29;Urgencia Hospitalaria (UEH);Mediana Complejidad;Traiguén;29
+29-107;Hospital Dr. Oscar Hernández E.(Curacautín);Hospital;29;True;False;legacy NN-NNN;129107;29;Urgencia Hospitalaria (UEH);Baja Complejidad;Curacautín;29
+29-108;Hospital de Lonquimay;Hospital;29;True;False;legacy NN-NNN;129108;29;Urgencia Hospitalaria (UEH);Baja Complejidad;Lonquimay;29
+29-803;SAR Alemania;SAR;29;True;False;legacy NN-NNN;129803;29;Urgencia Ambulatoria (SAR);Baja Complejidad;Angol;29
+29-900;SAPU Huequén;SAPU;29;True;False;legacy NN-NNN;200174;29;Urgencia Ambulatoria (SAPU);Baja Complejidad;Angol;29
+29-901;SAR Victoria;SAR;29;True;False;legacy NN-NNN;200175;29;Urgencia Ambulatoria (SAR);Baja Complejidad;Victoria;29
+33-150;Hospital de Castro;Hospital;33;True;False;legacy NN-NNN;133150;33;Urgencia Hospitalaria (UEH);Alta Complejidad;Castro;33
+33-911;SUR Quemchi;SUR;33;True;False;legacy NN-NNN;200732;33;Urgencia Ambulatoria (SUR);Baja Complejidad;Quemchi;33
+33-160;Hospital de Achao;Hospital;33;True;False;legacy NN-NNN;133160;33;Urgencia Hospitalaria (UEH);Baja Complejidad;Quinchao;33
+33-165;Hospital de Quellón;Hospital;33;True;False;legacy NN-NNN;133165;33;Urgencia Hospitalaria (UEH);Baja Complejidad;Quellón;33
+33-170;Hospital de Queilén;Hospital;33;True;False;legacy NN-NNN;133170;33;Urgencia Hospitalaria (UEH);Baja Complejidad;Queilén;33
+33-912;SUR Chonchi;SUR;33;True;False;legacy NN-NNN;200733;33;Urgencia Ambulatoria (SUR);Baja Complejidad;Chonchi;33
+33-913;SUR Dalcahue;SUR;33;True;False;legacy NN-NNN;200734;33;Urgencia Ambulatoria (SUR);Baja Complejidad;Dalcahue;33
+33-914;SUR Puqueldón;SUR;33;True;False;legacy NN-NNN;200735;33;Urgencia Ambulatoria (SUR);Baja Complejidad;Puqueldón;33
+33-915;SUR Chacao;SUR;33;True;False;legacy NN-NNN;200736;33;Urgencia Ambulatoria (SUR);Baja Complejidad;Ancud;33
+07-906;SAPU Pompeya;SAPU;7;True;False;legacy NN-NNN;200112;07;Urgencia Ambulatoria (SAPU);Baja Complejidad;Quilpué;7
+07-948;SAPU CATAPILCO;SAPU;7;True;False;legacy NN-NNN;200991;07;Urgencia Ambulatoria (SAPU);Baja Complejidad;Zapallar;7
+07-949;SAPU Dr. Johow (Zapallar);SAPU;7;True;False;legacy NN-NNN;200992;07;Urgencia Ambulatoria (SAPU);Baja Complejidad;Zapallar;7
+07-951;SAPU PAPUDO;SAPU;7;True;False;legacy NN-NNN;200994;07;Urgencia Ambulatoria (SAPU);Baja Complejidad;Papudo;7
+07-952;SAPU Manuel Lucero (Olmué);SAPU;7;True;False;legacy NN-NNN;200995;07;Urgencia Ambulatoria (SAPU);Baja Complejidad;Olmué;7
+07-953;SAPU LOS MOLLES;SAPU;7;True;False;legacy NN-NNN;200996;07;Urgencia Ambulatoria (SAPU);Baja Complejidad;La Ligua;7
+07-954;SUR Dr. Johow (Zapallar);SUR;7;True;False;legacy NN-NNN;200997;07;Urgencia Ambulatoria (SUR);Baja Complejidad;Zapallar;7
+07-955;SUR LAS VENTANAS;SUR;7;True;False;legacy NN-NNN;200998;07;Urgencia Ambulatoria (SUR);Baja Complejidad;Puchuncaví;7
+07-956;SUR PUCHUNCAVÍ;SUR;7;True;False;legacy NN-NNN;200999;07;Urgencia Ambulatoria (SUR);Baja Complejidad;Puchuncaví;7
+07-957;SUR PAPUDO;SUR;7;True;False;legacy NN-NNN;201000;07;Urgencia Ambulatoria (SUR);Baja Complejidad;Papudo;7
+07-958;SUR Manuel Lucero (Olmué);SUR;7;True;False;legacy NN-NNN;201001;07;Urgencia Ambulatoria (SUR);Baja Complejidad;Olmué;7
+07-959;SUR NOGALES;SUR;7;True;False;legacy NN-NNN;201002;07;Urgencia Ambulatoria (SUR);Baja Complejidad;Nogales;7
+07-960;SUR LAS PARCELAS;SUR;7;True;False;legacy NN-NNN;201003;07;Urgencia Ambulatoria (SUR);Baja Complejidad;La Ligua;7
+07-961;SUR HIJUELAS;SUR;7;True;False;legacy NN-NNN;201004;07;Urgencia Ambulatoria (SUR);Baja Complejidad;Hijuelas;7
+08-100;Hospital de San Camilo (San Felipe);Hospital;8;True;False;legacy NN-NNN;108100;08;Urgencia Hospitalaria (UEH);Alta Complejidad;San Felipe;8
+08-105;Hospital Psiquiátrico Dr. Philippe Pinel (Putaendo);Hospital;8;True;False;legacy NN-NNN;108105;08;Urgencia Hospitalaria (UEH);Mediana Complejidad;Putaendo;8
+08-101;Hospital San Juan de Dios (Los Andes);Hospital;8;True;False;legacy NN-NNN;108101;08;Urgencia Hospitalaria (UEH);Alta Complejidad;Los Andes;8
+08-102;Hospital San Francisco (Llaillay);Hospital;8;True;False;legacy NN-NNN;108102;08;Urgencia Hospitalaria (UEH);Baja Complejidad;Llaillay;8
+08-104;Hospital San Antonio (Putaendo);Hospital;8;True;False;legacy NN-NNN;108104;08;Urgencia Hospitalaria (UEH);Baja Complejidad;Putaendo;8
