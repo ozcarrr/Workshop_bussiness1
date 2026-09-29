@@ -1,7 +1,7 @@
 ---
 title: "Mental-health emergency visits, community follow-up and acute psychiatric beds across Chile's Health Services, 2024"
 subtitle: "C1 · Business Intelligence (IIB423T-1) · Universidad del Desarrollo"
-author: "Group 01: Benjamín Buzeta, Oscar Pichuman Millape"
+author: "Group 01: Benjamín Buzeta, Oscar Pichuman Millape, Felipe Alfredo Tajan Gebauer"
 date: "30 September 2026 · version C1-1.0"
 ---
 
@@ -474,8 +474,9 @@ The W1 stress ratio does not define an outcome and is dropped.
 
 | Member | Concrete contribution | Evidence location |
 |---|---|---|
-| Benjamín Buzeta | [TO COMPLETE] | [TO COMPLETE] |
-| Oscar Pichuman Millape | [TO COMPLETE] | [TO COMPLETE] |
+| Benjamín Buzeta | W1: documentary context and comparison of the two lines; W1 report. C1: ran the C1 revision with Claude against the feedback; supplied the DEIS downloads; checked the policy claims (ENS 2030, Law 21.331, financing report, Horwitz study) and removed the unsupported ones; wrote the problem, seven-step map, conclusions and Process record | Report §2, §3, §6, §8; git commit of 24-Sep |
+| Oscar Pichuman Millape | W1: extraction of reduced datasets, W1 notebook (executed on his machine), join tests and repository structure. C1: reviewed the extraction filters and the profiling results (cause hierarchy, 609 + 31 facility codes, territorial labels); checked the acute-bed definition against the REM20 area profile | `analysis/workshop1.ipynb`; `analysis/extract_c1_inputs.py`; notebook §2–6; git commits of 24-Sep |
+| Felipe Alfredo Tajan Gebauer | W1: reviewed the comparison matrix and drafted the questions for instructor feedback. C1: selected the REM A06 section A.1 codes from the SA_24 dictionary for the community follow-up indicator; reviewed the Health Service profiles, the screen and its cut-off sensitivity; wrote the machine-learning and dashboard proposal; prepared the slides and presentation script | Report §4.5, §5.2–5.3, §7; notebook §7, §9–10; `presentation/` |
 
 ### 8.4 AI use and verification
 
@@ -488,8 +489,9 @@ The W1 stress ratio does not define an outcome and is dropped.
 
 | Member | Contribution | Learning gain | Unresolved uncertainty |
 |---|---|---|---|
-| Benjamín Buzeta | [TO COMPLETE] | [TO COMPLETE] | [TO COMPLETE] |
-| Oscar Pichuman Millape | [TO COMPLETE] | [TO COMPLETE] | [TO COMPLETE] |
+| Benjamín Buzeta | Reframed the question around the decision a Health Service faces and removed claims the sources do not support | A policy objective, a numeric target and an indicator the data can measure are three different things; only the third can be tested with DEIS data | Whether the high follow-up and occupancy contrasts reflect care or recording practice, since REM A06 completeness per Service was not audited |
+| Oscar Pichuman Millape | Built the W1 extraction and joins that C1 reuses, and checked the C1 profiling results | Summing SADU rows without checking the cause hierarchy double-counts visits; the hierarchy check changed which causes the analysis uses | How much of each Service's emergency activity comes from patients living in other Services, which none of the sources records |
+| Felipe Alfredo Tajan Gebauer | Added community follow-up as the third part of the comparison and wrote the continuity proposal | A ratio between two sources describes relative volume, not coverage: follow-up visits per emergency visit cannot say whether the same people were followed up | Whether 29 Services × 4 years gives stable clusters, and whether REM A06 section A.1 captures all COSAM activity in every Service |
 
 ## 9. References
 

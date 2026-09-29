@@ -6,7 +6,7 @@ Instructor: Carlos Elías Pérez Pizarro.
 | Item | Value |
 |---|---|
 | Group ID | 01 |
-| Members | Benjamín Buzeta, Oscar Pichuman Millape |
+| Members | Benjamín Buzeta, Oscar Pichuman Millape, Felipe Alfredo Tajan Gebauer |
 | Submission | 30 September 2026, version C1-1.0 |
 | Previous stage | W1, submitted 24 September 2026 |
 
