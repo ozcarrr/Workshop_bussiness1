@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>GROUP_01_C1 Slides</title>
+<style>
+@page { size: 338.67mm 190.5mm; margin: 0; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "DejaVu Sans", Arial, sans-serif; color: #1a1a1a; }
+section { width: 338.67mm; height: 190.5mm; padding: 14mm 18mm 12mm; position: relative;
+          page-break-after: always; overflow: hidden; }
+section:last-child { page-break-after: auto; }
+h1 { font-size: 30pt; color: #1f4e79; margin: 0 0 6mm; line-height: 1.15; }
+h2 { font-size: 22pt; color: #1f4e79; margin: 0 0 6mm; border-bottom: 2px solid #1f4e79; padding-bottom: 2mm; }
+p, li { font-size: 14pt; line-height: 1.4; margin: 0 0 2.5mm; }
+ul { margin: 0; padding-left: 7mm; }
+.small p, .small li { font-size: 12pt; }
+.cols { display: flex; gap: 10mm; }
+.cols > div { flex: 1; }
+table { border-collapse: collapse; width: 100%; font-size: 11.5pt; }
+th { background: #e8eef5; text-align: left; padding: 2mm 3mm; border-bottom: 1.5px solid #1f4e79; }
+td { padding: 1.6mm 3mm; border-bottom: 1px solid #ddd; vertical-align: top; }
+img { display: block; max-width: 100%; }
+.num { font-size: 26pt; color: #1f4e79; font-weight: bold; }
+.lab { font-size: 11pt; color: #444; }
+.kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6mm; margin-bottom: 6mm; }
+.kpis div { background: #f3f6fa; padding: 4mm; border-left: 3px solid #1f4e79; }
+.foot { position: absolute; bottom: 6mm; left: 18mm; right: 18mm; font-size: 9pt; color: #666;
+        display: flex; justify-content: space-between; }
+.title-slide { background: #1f4e79; color: white; }
+.title-slide h1 { color: white; font-size: 32pt; margin-top: 30mm; }
+.title-slide p { font-size: 15pt; color: #dfe8f2; }
+.note { font-size: 11pt; color: #555; }
+</style>
+</head>
+<body>
+
+<section class="title-slide">
+  <h1>Mental-health emergency visits, community follow-up and acute psychiatric beds across Chile's Health Services, 2024</h1>
+  <p>C1 · Business Intelligence (IIB423T-1) · Universidad del Desarrollo</p>
+  <p>Group 01 · Benjamín Buzeta · Oscar Pichuman Millape · 30 September 2026</p>
+</section>
+
+<section>
+  <h2>Problem and decision</h2>
+  <div class="cols">
+    <div>
+      <p><b>Main question.</b> In 2024, how did the 29 Health Services differ in mental-health emergency visits, community follow-up and acute psychiatric bed use, and which area deserves a closer look in each?</p>
+      <p><b>Proposed user.</b> Mental-health unit of a Health Service; MINSAL network division.</p>
+      <p><b>Decision.</b> Review first: (a) community follow-up, (b) acute bed capacity, (c) organisation of emergency and referral care.</p>
+      <p><b>Scope.</b> Public network, 2024, visits and bed-days, <b>not people</b>.</p>
+    </div>
+    <div class="small">
+      <p><b>From W1 to C1</b></p>
+      <table>
+        <tr><th>W1</th><th>C1, after feedback</th></tr>
+        <tr><td>Stress ratio: visits / bed-days</td><td>Visits, bed-days and occupancy shown separately</td></tr>
+        <tr><td>Law 21.331 as a mandate being breached</td><td>Law and ENS 2030 as context only</td></tr>
+        <tr><td>"15% target", "2.4% budget"</td><td>Removed: not in the sources</td></tr>
+        <tr><td>Emergency vs beds</td><td>+ community follow-up (REM A06)</td></tr>
+        <tr><td>640 vs 609 facilities</td><td>Resolved: 609 legacy + 31 modern codes</td></tr>
+      </table>
+    </div>
+  </div>
+  <div class="foot"><span>Group 01 · C1</span><span>2</span></div>
+</section>
+
+<section>
+  <h2>Data: three sources, one territorial code</h2>
+  <table>
+    <tr><th>Pathway stage</th><th>Source</th><th>One row =</th><th>Observed in 2024</th></tr>
+    <tr><td>Community care</td><td>REM A06 section A.1</td><td>facility × month × professional</td><td>Yes: 5.3 M follow-up visits</td></tr>
+    <tr><td>Emergency visit</td><td>SADU causes 36, 35</td><td>facility × day × cause</td><td>Yes: 305,431 + 9,753 visits</td></tr>
+    <tr><td>Decision to hospitalise</td><td>SADU cause 42</td><td>facility × day</td><td>Yes: 27,306, hospital EDs only</td></tr>
+    <tr><td>Waiting for a bed</td><td>SADU causes 27, 28</td><td>facility × day</td><td><b>No: zero on every facility-day</b></td></tr>
+    <tr><td>Acute psychiatric stay</td><td>REM20, 4 acute areas</td><td>hospital × area × month</td><td>Yes: 1,130 beds, 89.3% occupied</td></tr>
+  </table>
+  <p style="margin-top:6mm">No patient identifier: sources are aggregated to Health Service × 2024 and compared side by side, not joined row by row.</p>
+  <p class="note">Facility join SADU → registry: 640/640 facilities, N:1, no duplication. Same 29 Health Service codes in all sources; names differ (e.g. "Iquique" = "Tarapacá").</p>
+  <div class="foot"><span>Group 01 · C1</span><span>3</span></div>
+</section>
+
+<section>
+  <h2>Quality checks that changed the analysis</h2>
+  <ul>
+    <li><b>Cause hierarchy.</b> Cause 36 = 37+38+39+40+41 on all 224,330 facility-days. 36 is the mental-health total and includes suicidal ideation. W1's 35+37+39+40 mixed levels.</li>
+    <li><b>Cause 42</b> is not a visit: 25 = 7+8+22+23+32+33+42 on every facility-day, so 42 = ED hospitalisations for mental disorders.</li>
+    <li><b>Recorded zeros.</b> "Patients waiting for a bed" is zero everywhere, so waiting cannot be measured.</li>
+    <li><b>Acute beds.</b> Four acute areas (mean stay 17–26 days); long-stay and forensic areas excluded. W1 had missed psychiatric intensive care.</li>
+    <li><b>Cleaning.</b> 24 duplicate rows removed, 28 codes stripped, 1 facility's blank Health Service filled from the registry. Occupancy recomputed from bed-days matches the published index.</li>
+  </ul>
+  <div class="foot"><span>Group 01 · C1</span><span>4</span></div>
+</section>
+
+<section>
+  <h2>National picture, 2024</h2>
+  <div class="kpis">
+    <div><div class="num">1.57%</div><div class="lab">of 19.4 M emergency visits are mental-health visits</div></div>
+    <div><div class="num">17.3</div><div class="lab">ED hospitalisations per 100 mental-health visits at hospital EDs</div></div>
+    <div><div class="num">89.3%</div><div class="lab">acute psychiatric occupancy (1,130 beds on average)</div></div>
+    <div><div class="num">17.4</div><div class="lab">community follow-up visits per mental-health ED visit</div></div>
+  </div>
+  <img src="../report/figures/fig1_mh_visits_cause_age.png" style="height:92mm; margin:auto">
+  <div class="foot"><span>Anxiety/stress-related: 57% of visits. 5–14 band: 17% of suicidal ideation, 15% of self-harm. 15–64 includes ages 15–17.</span><span>5</span></div>
+</section>
+
+<section>
+  <h2>Health Service profiles</h2>
+  <div class="cols">
+    <div style="flex:1.6"><img src="../report/figures/fig2_health_service_profiles.png" style="height:140mm"></div>
+    <div class="small">
+      <p><b>Follow-up per ED visit:</b> 8.4 to 32.6 (median 18.8).</p>
+      <p><b>Occupancy:</b> 41.5% to 99.6%.</p>
+      <p><b>Concentration.</b> The Horwitz Institute has 55% of Metropolitano Norte's mental-health visits; Philippe Pinel has 61% of Aconcagua's. Without them the shares fall from 3.6% to 1.7% and from 3.0% to 1.2%, so the high shares reflect referral centres, not local need.</p>
+      <p><b>Check before reading as care:</b> Araucanía Norte 0.7 ED hospitalisations per 100 (median 21.1); Arauco 41.5% occupancy.</p>
+    </div>
+  </div>
+  <div class="foot"><span>Group 01 · C1</span><span>6</span></div>
+</section>
+
+<section>
+  <h2>Screen: where to look first</h2>
+  <div class="cols">
+    <div style="flex:1.25"><img src="../report/figures/fig3_screen_scatter.png" style="height:138mm"></div>
+    <div class="small">
+      <p>Flags: emergency share above the median (without psychiatric EDs), follow-up below the median, occupancy ≥ 90%.</p>
+      <table>
+        <tr><th>Flags</th><th>Services</th></tr>
+        <tr><td>3</td><td>Biobío, Araucanía Sur, Los Ríos, Osorno, Del Reloncaví</td></tr>
+        <tr><td>2</td><td>Arica y Parinacota, Aconcagua, Metropolitano Norte, Talcahuano, Arauco, Chiloé</td></tr>
+        <tr><td>0</td><td>Viña del Mar Quillota, O'Higgins, Del Maule</td></tr>
+      </table>
+      <p style="margin-top:3mm">Occupancy flag: 20 Services at 85%, 14 at 90%, 9 at 95%. A descriptive screen, not a ranking of quality or need.</p>
+    </div>
+  </div>
+  <div class="foot"><span>Group 01 · C1</span><span>7</span></div>
+</section>
+
+<section>
+  <h2>What the evidence supports, and what it does not</h2>
+  <div class="cols">
+    <div>
+      <p><b>Observed.</b> Several-fold differences in follow-up and occupancy. Five Services combine a high emergency share, low follow-up and full beds.</p>
+      <p><b>Interpretation.</b> For those five, review community follow-up first, then bed management.</p>
+      <p><b>Hypotheses.</b> Low follow-up leads to more crises reaching the ED; long stays keep occupancy high.</p>
+      <p><b>Alternatives.</b> Recording practice; referrals between Services; private sector; population size and age.</p>
+    </div>
+    <div>
+      <p><b>Cannot establish:</b> need, quality, waiting time, causality, or whether a person was followed up after an ED visit.</p>
+      <p><b>W1 reconciled.</b> Del Maule 1.83 reproduces, but is 1.17 with acute beds. "18 Services without child beds" is reversed: 18 have child short-stay beds; 7 report no acute child area (not reported ≠ no service).</p>
+      <p><b>Needed next:</b> linked ED-admission records, a population denominator, 2021–2023 data, confirmation of anomalies.</p>
+    </div>
+  </div>
+  <div class="foot"><span>Group 01 · C1</span><span>8</span></div>
+</section>
+
+<section>
+  <h2>Continuity: machine learning and dashboard</h2>
+  <div class="cols">
+    <div>
+      <p><b>ML: clustering Health Service profiles</b></p>
+      <ul>
+        <li>Unit: Health Service × year, 2021–2024 (116 rows; data already available).</li>
+        <li>Inputs: the five indicators, primary-care share of follow-up, child share of acute beds.</li>
+        <li>No labels; clusters described. A Service compares itself with similar peers.</li>
+        <li>For review: an occupancy ≥ 95% month, predicted from previous months only (no same-month leakage).</li>
+      </ul>
+    </div>
+    <div>
+      <p><b>Dashboard</b></p>
+      <ul>
+        <li>Users: Health Service mental-health unit; MINSAL network division.</li>
+        <li>Views: screen scatter; Service profile by month; data-quality panel.</li>
+        <li>Filters: year, month, cause, age band, facility type, with or without psychiatric EDs.</li>
+        <li>Waiting left out until a source records it.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot"><span>Group 01 · C1</span><span>9</span></div>
+</section>
+
+<section>
+  <h2>Process record</h2>
+  <div class="cols small">
+    <div>
+      <p><b>Feedback response.</b> 9 of 10 items accepted, 1 adapted: the DEIS 2024 establishment list could not be downloaded from our environment, so the 2026 registry was used and the gap stated.</p>
+      <p><b>AI use.</b> W1: Gemini (scaffolding, translation). C1: Claude (extraction, notebook, drafting). Unsupported W1 claims removed after source checks. Every number comes from the executed notebook, and Service totals reconcile with national totals.</p>
+    </div>
+    <div>
+      <p><b>Contributions</b></p>
+      <table>
+        <tr><th>Member</th><th>Contribution</th></tr>
+        <tr><td>Benjamín Buzeta</td><td>[TO COMPLETE]</td></tr>
+        <tr><td>Oscar Pichuman Millape</td><td>[TO COMPLETE]</td></tr>
+      </table>
+    </div>
+  </div>
+  <div class="foot"><span>Group 01 · C1 · full detail in the report, section 8</span><span>10</span></div>
+</section>
+
+</body>
+</html>
