@@ -49,6 +49,22 @@ by bed-days and cannot show a shortage.
 | Units | Visits, hospitalisations, bed-days and follow-up visits; **not people** |
 | Proposed use | A descriptive profile and screen that tells a Health Service which area to review first; not a performance ranking |
 
+**What "ED" means in this report.** ED stands for emergency department:
+a place where people receive urgent care without an appointment. SADU
+covers the whole public emergency network, so "ED visits" means visits to
+any of its facilities:
+
+- hospital emergency units (*Unidad de Emergencia Hospitalaria*, UEH),
+  182 facilities, the only ones with direct access to hospital beds;
+- primary-care urgent centres without beds: SAPU (*Servicio de Atención
+  Primaria de Urgencia*), SAR (*Servicio de Alta Resolutividad*) and SUR
+  (*Servicio de Urgencia Rural*), plus 3 CEAR, 458 facilities in total.
+
+"Hospital ED" refers only to the first group. A psychiatric ED is a
+hospital emergency unit specialised in mental health, such as those of
+Instituto Psiquiátrico Dr. José Horwitz Barak and Hospital Psiquiátrico
+Dr. Philippe Pinel.
+
 ### 2.2 Documentary support
 
 Each source is used for the claim it supports. Policy documents give
